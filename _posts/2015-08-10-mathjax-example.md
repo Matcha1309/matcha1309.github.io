@@ -1,28 +1,8 @@
 ---
-title: "MathJax Example"
+title: "JekTeX Example"
 date: 2015-08-10T08:08:50-04:00
 ---
 
-[MathJax](http://www.mathjax.org/) is a simple, yet powerful, way of
-including Tex/LaTex/MathML based mathematics in HTML webpages.
-
-## Usage
-
-To enable MathJax support configure your `_config.xml` to:
- * Set `kramdown` as the Markdown parser.
- * Enable MathJax.
-
-The version of MathJax enabled is v3.
-
-An example setting for `_config.xml` is shown below:
-
-```yaml
-markdown: kramdown
-mathjax:
-  enable: true
-  combo: "tex-svg"
-  tags: "ams"
-```
 
 Use `$$` as delimiters to enable TeX math mode, both for inline and display (i.e. block) rendering.
 
@@ -41,13 +21,10 @@ the `ams` and `all` setting for `mathjax.tags`.
 
 $$
 \begin{equation}
-\mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p}    \label{test}
+\mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p}
 \end{equation}
 $$
 
-If equation numbering is turned on, we should see an equation number here: $$\eqref{test}$$.
-
-An example using the `{align}` LaTeX environment is below.  The first equation has a `\notag` directive.
 
 $$
 \begin{align}
