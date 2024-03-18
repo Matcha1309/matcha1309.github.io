@@ -1,18 +1,13 @@
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Klárčin blog"
-description: "It really is the best."
+description: "~~Mistr a Markétka~~ Medvěd a Klárka"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
+read_time: true # reading time estimates, e.g. true
 words_per_minute: # 200
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
 
 # Liquid
 liquid:
@@ -23,33 +18,6 @@ permalink: /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
-
-# Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
-
-# Search
-search_full_content: false # can have performance implications for large sites
-
-# Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-plugins:
-  - jekyll-paginate
-  - jektex
 
 # Front Matter Defaults
 defaults:
@@ -77,3 +45,19 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+
+plugins:
+  - jektex
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - .jektex-cache
+   - .vendor/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - LICENSE
+   - README.md
+   - makefile
+

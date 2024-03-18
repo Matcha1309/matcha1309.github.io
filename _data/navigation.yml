@@ -2,6 +2,10 @@
 
 - title: Home
   url: /
+- title: O mně
+  url: /about/
+- title: Kontakt
+  url: /contact/
 - title: Posts
   url: /posts/
 - title: BlackBlog
