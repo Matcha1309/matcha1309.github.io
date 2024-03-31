@@ -31,10 +31,9 @@ defaults:
 
 # Site Author
 author:
-  name:
-  picture:
+  name: Klárka
+  picture: assets/img/klarka-pfp.jpg
   email:
-  twitter:
   links:
     - title:
       url:
@@ -43,7 +42,7 @@ author:
 # Footer Links
 footer_links:
   - title: Feed
-    url: atom.xml
+    url: feed.xml
     icon: fas fa-rss-square
 
 plugins:
