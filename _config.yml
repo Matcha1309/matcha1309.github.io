@@ -1,23 +1,23 @@
-skin: "/assets/css/skins/default.css"
-locale: en-US
 title: "Klárčin blog"
 description: "~~Mistr a Markétka~~ Medvěd a Klárka"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://matcha1309.github.io"
+
+
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true # reading time estimates, e.g. true
 words_per_minute: # 200
+skin: "/assets/css/skins/default.css"
+locale: cs-CZ
 
-# Liquid
-liquid:
-  error_mode: strict
 
 # Build settings
 permalink: /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
+
 
 # Front Matter Defaults
 defaults:
@@ -29,6 +29,7 @@ defaults:
       layout: post
       share: true
 
+
 # Site Author
 author:
   name: Klárka
@@ -39,14 +40,16 @@ author:
       url:
       icon:
 
-# Footer Links
-footer_links:
-  - title: Feed
-    url: feed.xml
-    icon: fas fa-rss-square
+#######################################################################################
+
+# Liquid
+liquid:
+  error_mode: strict
+
 
 plugins:
   - jektex
+
 
 exclude:
    - .sass-cache/
