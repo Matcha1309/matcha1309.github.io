@@ -4,7 +4,7 @@ images:
   - "/assets/img/sewing.png"
 ---
 
-Kdo zkoušel kreslit na počítači bez patřičného vybavení, zná to. Myš se nehýbe plynuje, touchpad je nepohodlný a nepřesný, dotyková obrazovka moc malá. Zahodit to, jít si pro tužku a papír! Taky jsem to dřív viděla takhle. 
+Kdo zkoušel kreslit na počítači bez patřičného vybavení, zná to. Myš se nehýbe plynule, touchpad je nepohodlný a nepřesný, dotyková obrazovka moc malá. Zahodit to, jít si pro tužku a papír! Taky jsem to dřív viděla takhle. 
 
 ![Wacom v přirozeném prostředí](/assets/img/wacom_photo.jpg)
 
