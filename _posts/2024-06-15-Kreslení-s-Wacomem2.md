@@ -2,7 +2,7 @@
 title: "Kreslení s Wacomem, část 2"
 ---
 Minulý příspěvek končil pozvánkou do Galerie na motivy placek. 
-Podle [Wikipedie]("https://cs.wikipedia.org/wiki/Placka") může být placka:
+Podle [Wikipedie](https://cs.wikipedia.org/wiki/Placka) může být placka:
 
 1. slangově malá lahvička na alkohol, též placatka
 2. pokrm plochého tvaru
