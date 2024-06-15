@@ -8,5 +8,7 @@
   url: /contact/
 - title: Galerie
   url: /galerie/
+- title: RSS/Atom
+  url: /feed.xml
 - title: BlackBlog
   url: https://blackblog.cz/
