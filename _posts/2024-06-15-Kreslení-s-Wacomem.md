@@ -20,4 +20,4 @@ Pro porovnání, stejný obrázek ze současné doby:
 
 Mezi obrázky uběhlo přibližně tři čtvrtě roku. 
 
-Mým oblíbeným formátem se postpně staly motivy na placky. Spoustu si jich můžete prohlédnout v [Galerii](/gallery/).
+Mým oblíbeným formátem se postpně staly motivy na placky. Spoustu si jich můžete prohlédnout v [Galerii](/galerie/).
