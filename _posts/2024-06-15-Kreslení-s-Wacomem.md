@@ -15,6 +15,9 @@ Začalo to jednoduše, dost strašnou amatéřinou, ale postupně mi přijde, ž
 ![Jeden z prvních obrázků, cca září 2023](/assets/img/sewing.png)
 
 Pro porovnání, stejný obrázek ze současné doby: 
-![Přepracovaná verze, červen 2024](/assets/img/sewing_new.png){:class="img-responsive"}
+
+![Přepracovaná verze, červen 2024](/assets/img/sewing_new.png)
+
+Mezi obrázky uběhlo přibližně tři čtvrtě roku. 
 
 Mým oblíbeným formátem se postpně staly motivy na placky. Spoustu si jich můžete prohlédnout v [Galerii](/galery/).
