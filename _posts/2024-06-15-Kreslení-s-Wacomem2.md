@@ -3,16 +3,16 @@ title: "Kreslení s Wacomem, část 2"
 ---
 Minulý příspěvek končil pozvánkou do Galerie na motivy placek. 
 Podle [Wikipedie]({https://cs.wikipedia.org/wiki/Placka}) může být placka: 
-1. slangově malá lahvička na alkohol, též placatka
-2. pokrm plochého tvaru
-3. typ klenby pouívaný často v barokní architektuře
-4. rod sleďovitých ryb
-5. alternativní jméno přírodní památky v okrese Břeclav
+(1) slangově malá lahvička na alkohol, též placatka
+(2) pokrm plochého tvaru
+(3) typ klenby pouívaný často v barokní architektuře
+(4) rod sleďovitých ryb
+(5) alternativní jméno přírodní památky v okrese Břeclav
 
  
  Nás bude ale zajímat 
  
-6. placka (odznak) - předmět plochého tvaru, odznak
+(6) placka (odznak) - předmět plochého tvaru, odznak
 
 Navrhování motivů placek má specifika, která možná můžou být pro někoho zbytečně omezující, pro mě je to však výhoda. Především si musíme uvědomit, že výsledný produkt bude mít na průměru cca 2-7 cm. Dalším specifikem je kulatý tvar. Tohle může být pro někoho nepříjemné, ale já si myslím, že to naopak spoustu věcí odpustí. 
 
