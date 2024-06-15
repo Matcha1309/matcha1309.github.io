@@ -2,6 +2,8 @@
 title: "Kreslení s Wacomem, část 1"
 ---
 
+Kdo zkoušel kreslit na počítači bez patřičného vybavení, zná to. Myš se nehýbe plynuje, touchpad je nepohodlný a nepřesný, dotyková obrazovka moc malá. Zahodit to, jít si pro tužku a papír! Taky jsem to dřív viděla takhle. 
+
 ![Wacom v přirozeném prostředí](/assets/img/wacom_photo.jpg)
 
 Asi tak před rokem jsem si pořídila grafický tablet od Wacomu. Už tehdy mi připadalo,
