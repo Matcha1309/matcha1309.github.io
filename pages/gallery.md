@@ -3,4 +3,4 @@ layout: page
 permalink: /galerie/
 ---
 
-{% include gallery.html %}
+{% include gallery.html %}{:width="100%"}
