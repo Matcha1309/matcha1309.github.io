@@ -19,3 +19,8 @@ Za tento blog vděčím především [Honzovi](https://blackblog.cz/) (odkaz na 
 Na mém osobním blogu najdete (TODO) všechno možné, co jsem vytvořila.
 Pokud se vám cokoli líbí nebo vidíte nějakou chybu, budu ráda, když mi to napíšete na mail (v záložce kontakt).
 
+## Kontakt
+Pokud máte nějaké nápady, dotazy, připomínky, požadavky nebo potřebu napsat do knihy stížností, že nejsou pribináčky, prosím, kontaktujte mě:
+
+# Můj email
+[matcha1309@hotmail.com](mailto:matcha1309@hotmail.com)
