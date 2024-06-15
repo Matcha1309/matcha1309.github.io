@@ -6,4 +6,4 @@ permalink: /contact/
 Pokud máte nějaké nápady, dotazy, připomínky, požadavky nebo potřebu napsat do knihy stížností, že nejsou pribináčky, prosím, kontaktujte mě: 
 
 # Můj email
-[contact me](mailto:matcha1309@hotmail.com)
+[napište mi zde!](mailto:matcha1309@hotmail.com)
