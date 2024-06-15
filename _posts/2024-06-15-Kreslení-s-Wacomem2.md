@@ -16,32 +16,32 @@ Navrhování motivů placek má specifika, která možná můžou být pro něko
 Některé placky, které vyrábím, měly být vtipné, některé "umělecké", některé pak byly dělány jako Vánoční dárky. Zde najdete výběr, další můžete vidět v [Galerii](/gallerie/). 
 
 
-![name](/assets/img/sewing.png){:width="33%"}{:class="img-responsive"}
+![name](/assets/img/sewing.png){:width="33%"}
 
 
-![čaj-stein](/assets/img/placky_cajstein.png){:width="33%"}{:class="img-responsive"}
-![d20](/assets/img/placky_d20.png){:width="33%"}{:class="img-responsive"}
-![demon](/assets/img/placky_demon_deer.png){:width="33%"}{:class="img-responsive"}
-{:class="img-responsive"}
-
-![chameleon](/assets/img/placky_chameleon.png){:width="33%"}{:class="img-responsive"}
-![liška](/assets/img/placky_listicka.png){:width="33%"}{:class="img-responsive"}
-![přepravka](/assets/img/placky_prepravka.png){:width="33%"}{:class="img-responsive"}
+![čaj-stein](/assets/img/placky_cajstein.png){:width="33%"}
+![d20](/assets/img/placky_d20.png){:width="33%"}
+![demon](/assets/img/placky_demon_deer.png){:width="33%"}
 
 
-![china](/assets/img/placky_china.png){:width="33%"}{:class="img-responsive"}
+![chameleon](/assets/img/placky_chameleon.png){:width="33%"}
+![liška](/assets/img/placky_listicka.png){:width="33%"}
+![přepravka](/assets/img/placky_prepravka.png){:width="33%"}
+
+
+![china](/assets/img/placky_china.png){:width="33%"}
 ![gargoyle_cz](/assets/img/placky_gargoyle_cz.png){:width="33%"}
-![plastic](/assets/img/placky_trashbag_breakdown.png){:width="33%"}{:class="img-responsive"}
+![plastic](/assets/img/placky_trashbag_breakdown.png){:width="33%"}
 
-![supersokrates](/assets/img/placky_supersokrates.png){:width="33%"}{:class="img-responsive"}
-![řekové](/assets/img/placky_rekove.png){:width="33%"}{:class="img-responsive"}
-![believer](/assets/img/placky_believer.png){:width="33%"}{:class="img-responsive"}
+![supersokrates](/assets/img/placky_supersokrates.png){:width="33%"}
+![řekové](/assets/img/placky_rekove.png){:width="33%"}
+![believer](/assets/img/placky_believer.png){:width="33%"}
 
-![lego](/assets/img/placky_leg-o.png){:width="33%"}{:class="img-responsive"}
-![myšketýři](/assets/img/placky_mysketyri.png){:width="33%"}{:class="img-responsive"}
-![rip](/assets/img/placky_RIP-it.png){:width="33%"}{:class="img-responsive"}
+![lego](/assets/img/placky_leg-o.png){:width="33%"}
+![myšketýři](/assets/img/placky_mysketyri.png){:width="33%"}
+![rip](/assets/img/placky_RIP-it.png){:width="33%"}
 
-![stitch](/assets/img/placky_single_Stitch.png){:width="33%"}{:class="img-responsive"}
-![unix](/assets/img/placky_unix.png){:width="33%"}{:class="img-responsive"}
+![stitch](/assets/img/placky_single_Stitch.png){:width="33%"}
+![unix](/assets/img/placky_unix.png){:width="33%"}
 
 
