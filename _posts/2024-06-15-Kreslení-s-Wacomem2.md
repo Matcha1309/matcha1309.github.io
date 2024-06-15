@@ -11,6 +11,7 @@ Podle [Wikipedie]({https://cs.wikipedia.org/wiki/Placka}) může být placka:
 
  
  Nás bude ale zajímat 
+ 
 6. placka (odznak) - předmět plochého tvaru, odznak
 
 Navrhování motivů placek má specifika, která možná můžou být pro někoho zbytečně omezující, pro mě je to však výhoda. Především si musíme uvědomit, že výsledný produkt bude mít na průměru cca 2-7 cm. Dalším specifikem je kulatý tvar. Tohle může být pro někoho nepříjemné, ale já si myslím, že to naopak spoustu věcí odpustí. 
