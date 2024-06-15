@@ -1,5 +1,5 @@
 title: "Klárčin blog"
-description: "~~Mistr a Markétka~~ Medvěd a Klárka"
+# description: "~~Mistr a Markétka~~ Medvěd a Klárka"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://matcha1309.github.io"
 
