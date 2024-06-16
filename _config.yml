@@ -3,7 +3,6 @@ title: "Klárčin blog"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://matcha1309.github.io"
 
-
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true # reading time estimates, e.g. true
@@ -23,6 +22,17 @@ navigation:
   - title: BlackBlog
     url: https://blackblog.cz/
 
+# Site Author
+author:
+  name: Klárka
+  picture: assets/img/klarka-pfp.jpg
+  email:
+  links:
+    - title:
+      url:
+      icon:
+
+#######################################################################################
 
 # Build settings
 permalink: /:categories/:title/
@@ -39,19 +49,6 @@ defaults:
       type: posts
     values:
       layout: post
-
-
-# Site Author
-author:
-  name: Klárka
-  picture: assets/img/klarka-pfp.jpg
-  email:
-  links:
-    - title:
-      url:
-      icon:
-
-#######################################################################################
 
 # Liquid
 liquid:
