@@ -15,6 +15,7 @@ Krom toho jsem děvče kočičí, všechna koťátka z okolí mě poznají už z
 
 ## O mém blogu
 Za tento blog vděčím především [Honzovi](https://blackblog.cz/) (odkaz na jeho blog nahoře v záložkách), který ho technicky zrealizoval.
+Zdrojový kód můžete najít na [github.com/Matcha1309/matcha1309.github.io](https://github.com/Matcha1309/matcha1309.github.io).
 
 Na mém osobním blogu najdete (TODO) všechno možné, co jsem vytvořila.
 Pokud se vám cokoli líbí nebo vidíte nějakou chybu, budu ráda, když mi to napíšete na mail (v záložce kontakt).
