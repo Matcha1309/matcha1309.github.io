@@ -1,5 +1,23 @@
 ---
 title: "Kreslení s Wacomem, část 2"
+images:
+  - "/assets/img/placky_cajstein.png"
+  - "/assets/img/placky_d20.png"
+  - "/assets/img/placky_demon_deer.png"
+  - "/assets/img/placky_chameleon.png"
+  - "/assets/img/placky_listicka.png"
+  - "/assets/img/placky_prepravka.png"
+  - "/assets/img/placky_china.png"
+  - "/assets/img/placky_gargoyle_cz.png"
+  - "/assets/img/placky_trashbag_breakdown.png"
+  - "/assets/img/placky_supersokrates.png"
+  - "/assets/img/placky_rekove.png"
+  - "/assets/img/placky_believer.png"
+  - "/assets/img/placky_leg-o.png"
+  - "/assets/img/placky_mysketyri.png"
+  - "/assets/img/placky_RIP-it.png"
+  - "/assets/img/placky_single_Stitch.png"
+  - "/assets/img/placky_unix.png"
 ---
 Minulý příspěvek končil pozvánkou do Galerie na motivy placek. 
 Podle [Wikipedie](https://cs.wikipedia.org/wiki/Placka) může být placka:
@@ -16,7 +34,8 @@ Podle [Wikipedie](https://cs.wikipedia.org/wiki/Placka) může být placka:
 
 Navrhování motivů placek má specifika, která možná můžou být pro někoho zbytečně omezující, pro mě je to však výhoda. Především si musíme uvědomit, že výsledný produkt bude mít na průměru cca 2-7 cm. Dalším specifikem je kulatý tvar. Tohle může být pro někoho nepříjemné, ale já si myslím, že to naopak spoustu věcí odpustí. 
 
-Některé placky, které vyrábím, měly být vtipné, některé "umělecké", některé pak byly dělány jako Vánoční dárky. Zde najdete výběr, další můžete vidět v [Galerii](/galerie/). 
+Některé placky, které vyrábím, měly být vtipné, některé "umělecké", některé pak byly dělány jako Vánoční dárky.
+Zde najdete výběr, další můžete vidět v [Galerii](/galerie/).
 
 
 ![čaj-stein](/assets/img/placky_cajstein.png){:width="33%"}
