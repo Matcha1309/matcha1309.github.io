@@ -3,7 +3,7 @@ title: "Copak je to za zvíře?"
 ---
 Je to kocour? Je to kačer? Je to ještě něco jiného?
 
-Pro jednou jsem se zase dostala k něčemu háčkovanému z žinylky, konečně zas pro jednou zvířátko. A není úplně jedno, jaké zvířítko by to mělo být? Je roztomilé, je měkoučké, je "plyšové". 
+Pro jednou jsem se zase dostala k něčemu háčkovanému z žinylky, konečně zas pro jednou zvířátko. A není úplně jedno, jaké zvířátko by to mělo být? Je roztomilé, je měkoučké, je "plyšové". 
 
 Představuji vám tímto Nuniho, huňatého Kočera! 
 
