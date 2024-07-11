@@ -34,7 +34,7 @@ Pro kontext pár porovnání (jen málo příkladů za všechny):
 
 [L. Donegan - My old man's a dustman](https://www.youtube.com/watch?v=Y7GeZ3YmONw) vs. [N. Urbánková - Vilém peče housky](https://www.youtube.com/watch?v=dUvRpctMT0E)
 
-[A. Celentano - Il ragazzo della Via Gluck](https://www.youtube.com/watch?v=Y7GeZ3YmONw) vs. [N. Urbánková - Závidím](https://www.youtube.com/watch?v=Fvg6wO8DOJs)
+[A. Celentano - Il ragazzo della Via Gluck](https://www.youtube.com/watch?v=PAwjmpxXEh4) vs. [N. Urbánková - Závidím](https://www.youtube.com/watch?v=Fvg6wO8DOJs)
 
 [J. Cash - I've been everywhere](https://www.youtube.com/watch?v=CAEU1yANRSY) vs. [J. Vyčítal & Greenhorns - Honzův song](https://www.youtube.com/watch?v=Fvg6wO8DOJs)
 
