@@ -36,7 +36,7 @@ Pro kontext pár porovnání (jen málo příkladů za všechny):
 
 [A. Celentano - Il ragazzo della Via Gluck](https://www.youtube.com/watch?v=PAwjmpxXEh4) vs. [N. Urbánková - Závidím](https://www.youtube.com/watch?v=Fvg6wO8DOJs)
 
-[J. Cash - I've been everywhere](https://www.youtube.com/watch?v=CAEU1yANRSY) vs. [J. Vyčítal & Greenhorns - Honzův song](https://www.youtube.com/watch?v=Fvg6wO8DOJs)
+[J. Cash - I've been everywhere](https://www.youtube.com/watch?v=CAEU1yANRSY) vs. [J. Vyčítal & Greenhorns - Honzův song](https://www.youtube.com/watch?v=Q1idI5h5EmE)
 
 [J. Cash - There ain't no easy run](https://www.youtube.com/watch?v=vws8lMWQ_cc) vs. [L. Vodička - Řidič, ten tvrdej chleba má](https://www.youtube.com/watch?v=LcKdTeEklRA)
 
