@@ -1,13 +1,19 @@
 ---
 title: "Copak je to za zvíře?"
+images:
+  - "/assets/img/kocer1.jpg"
+  - "/assets/img/kocer2.jpg"
+  - "/assets/img/kocer3.jpg"
+  - "/assets/img/kocer4.jpg"
 ---
 Je to kocour? Je to kačer? Je to ještě něco jiného?
 
-Pro jednou jsem se zase dostala k něčemu háčkovanému z žinylky, konečně zas pro jednou zvířátko. A není úplně jedno, jaké zvířátko by to mělo být? Je roztomilé, je měkoučké, je "plyšové". 
+Pro jednou jsem se zase dostala k něčemu háčkovanému z žinylky, konečně zas pro jednou zvířátko.
+A není úplně jedno, jaké zvířátko by to mělo být? Je roztomilé, je měkoučké, je "plyšové".
 
-Představuji vám tímto Nuniho, huňatého Kočera! 
+Představuji vám tímto Nuniho, huňatého Kočera!
 
-(Kočer = Kocour + Kačer)
+$$ \text{Kočer} = \text{Kocour} + \text{Kačer} $$
 
 
 ![Kočer](/assets/img/kocer1.jpg){:width="50%"}
