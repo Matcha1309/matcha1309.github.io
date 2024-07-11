@@ -7,6 +7,8 @@ Pro jednou jsem se zase dostala k něčemu háčkovanému z žinylky, konečně 
 
 Představuji vám tímto Nuniho, huňatého Kočera! 
 
+(Kočer = Kocour + Kačer)
+
 
 ![Kočer](/assets/img/kocer1.jpg){:width="50%"}
 
