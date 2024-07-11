@@ -42,7 +42,7 @@ Pro kontext pár porovnání (jen málo příkladů za všechny):
 
 
 A na závěr: 
-[K. Kristofferson - Jody and the Kid](https://www.youtube.com/watch?v=cRpUa-_Rqn8) vs. [W. Daněk - Jody a Kid](https://www.youtube.com/watch?v=tdU8MSX3wRU) vs. [M. Černý - Jeník s Mařenkou](https://www.youtube.com/watch?v=PCnQMNy2-6s) vs. [M. Tučný & Fešáci - Jeník s Mařenkou](https://www.youtube.com/watch?v=5iGC-ugEB8c)
+[K. Kristofferson - Jody and the Kid](https://www.youtube.com/watch?v=cRpUa-_Rqn8) vs. [W. Daněk - Jody a Kid](https://www.youtube.com/watch?v=tdU8MSX3wRU) vs. [M. Černý - Jeník s Mařenkou](https://www.youtube.com/watch?v=PCnQMNy2-6s) vs. [M. Tučný & Fešáci - Slída](https://www.youtube.com/watch?v=5iGC-ugEB8c)
 
 
 
