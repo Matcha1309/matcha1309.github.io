@@ -10,12 +10,12 @@
 }
 
 .page-title {
-  @include fluid-type($min-vw, $max-vw, 48px, 60px);
   margin-bottom: 0.5em;
   font-family: $title-font-family;
   font-weight: $page-title-weight;
   font-style: italic;
   letter-spacing: -2px;
+  @include fluid-type($min-vw, $max-vw, 48px, 60px);
 }
 
 .page-image {
@@ -94,7 +94,6 @@
 }
 
 .page-author {
-  @include clearfix;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,6 +101,7 @@
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 1em;
+  @include clearfix;
 
   @include breakpoint($large) {
     display: block;

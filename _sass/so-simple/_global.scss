@@ -66,16 +66,16 @@
 }
 
 .masthead {
-  @include clearfix;
   margin-bottom: 3em;
   text-align: center;
+  @include clearfix;
 }
 
 .site-title {
   margin: 0.5em 0 0;
   padding: 0;
-  @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
   font-weight: 700;
+  @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
 
   a {
     text-decoration: none;
@@ -85,9 +85,9 @@
 .site-description {
   margin-bottom: 1em;
   font-family: $description-font-family;
-  @include fluid-type($min-vw, $max-vw, $h5-min, $h5-max);
   font-weight: 400;
   font-style: italic;
+  @include fluid-type($min-vw, $max-vw, $h5-min, $h5-max);
 }
 
 .site-logo {
@@ -116,11 +116,11 @@
 }
 
 .site-footer {
-  @include clearfix();
   margin: 2em 0;
   padding: 2em 0;
   text-align: center;
   border-top: 1px solid;
+  @include clearfix();
 
   .social-icons {
     margin-bottom: 0.5em;
@@ -175,9 +175,9 @@
 }
 
 .taxonomy-title {
-  @include fluid-type($min-vw, $max-vw, 28px, 32px);
   margin-bottom: 0.5em;
   font-family: $base-font-family;
+  @include fluid-type($min-vw, $max-vw, 28px, 32px);
 }
 
 .taxonomy-index {
