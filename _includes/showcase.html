@@ -1,0 +1,7 @@
+<div class="showcase">
+	{% for photo in include.post.images -%}
+		<a href="{{- post.url -}}" title="{{- post.title -}}" data-lightbox="showcase" class="showcase-item">
+			<img src="{{- photo -}}" alt="{{- post.title -}}" />
+		</a>
+	{%- endfor %}
+</div>

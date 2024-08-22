@@ -1,7 +1,8 @@
 <div class="gallery">
 {% for post in site.posts %}
-{% for image in post.images %}
-<a href="{{ post.url }}"><img src="{{ image }}" alt="{{ post.title }}" /></a>
-{% endfor %}
+	{% if post.images != null %}
+		<h2>{{- post.title -}}</h2>
+		{% include showcase.html post=post %}
+	{% endif %}
 {% endfor %}
 </div>
