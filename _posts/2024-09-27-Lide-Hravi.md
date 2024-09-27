@@ -22,7 +22,7 @@ images:
   - "/assets/img/Pexeso11.png"
   - "/assets/img/Pexeso12.png"
   - "/assets/img/PexesoBack.png"
-  - "/assets/img/PexesoHra.jpg"
+  - "/assets/img/PexesoHra.JPG"
   - "/assets/img/PexesoStack.jpg"
   - "/assets/img/Rocket.png"
 ---
@@ -63,12 +63,12 @@ Pexesu jsem navrhla a kreslila veškerý vizuál, tedy všechny přední strany 
 ![P10](/assets/img/Pexeso10.png){:width="30%"} ![P11](/assets/img/Pexeso11.png){:width="30%"} ![P12](/assets/img/Pexeso12.png){:width="30%"}
 ![PB](/assets/img/PexesoBack.png){:width="50%"} 
 
-Děti pochopily rychle, brzy měly nalezeno a tím získaly další dílek. 
+Děti pochopily rychle, brzy měly nalezeno a získaly další dílek. 
 
-![PA](/assets/img/PexesoHra.jpg){:width="50%"} ![PC](/assets/img/PexesoStack.jpg){:width="50%"} (Obrázky hra a stack TODO)
+![PA](/assets/img/PexesoHra.JPG){:width="50%"} ![PC](/assets/img/PexesoStack.jpg){:width="50%"} 
 
 Za chvíli přišel čas na závěrečnou hru. Tato hra měla být závěrečným letem zpět na planetu Zemi. Jedná se o úplně jednoduchoučkou hru vyrobenou v Unity, kde raketa letí dopředu a manipulací pomocí A a D se vyhýbá meteoritům (které jsou jen otravné) a asteroidům (které restartují hru, pokud do nich nabourá). Hra jako taková je hodně jednoduchá a trochu bastl, účel ale splnila. Vizuál jsem si kompletně vyráběla sama, ale hudbu jsem si půjčila, během hry hraje Out of Body (Dance with the dead), na závěr pak je slyšet Victory theme z Final Fantasy I. 
-Záznam herního průběhu je ke shlédnutí zde: ![Video](https://youtu.be/q_o6vZlWboU)
+Záznam herního průběhu je ke shlédnutí zde: [Video](https://youtu.be/q_o6vZlWboU)
 
 A na závěr: závěrečný obrázek, který se ukázal po doletu raketky. 
 ![PA](/assets/img/RocketGame.png){:width="100%"}
