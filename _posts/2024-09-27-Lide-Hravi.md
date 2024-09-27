@@ -65,7 +65,7 @@ Pexesu jsem navrhla a kreslila veškerý vizuál, tedy všechny přední strany 
 
 Děti pochopily rychle, brzy měly nalezeno a získaly další dílek. 
 
-![PA](/assets/img/PexesoHra.JPG){:width="50%"} ![PC](/assets/img/PexesoStack.jpg){:width="50%"} 
+![PA](/assets/img/PexesoHra.JPG){:width="100%"} ![PC](/assets/img/PexesoStack.jpg){:width="100%"} 
 
 Za chvíli přišel čas na závěrečnou hru. Tato hra měla být závěrečným letem zpět na planetu Zemi. Jedná se o úplně jednoduchoučkou hru vyrobenou v Unity, kde raketa letí dopředu a manipulací pomocí A a D se vyhýbá meteoritům (které jsou jen otravné) a asteroidům (které restartují hru, pokud do nich nabourá). Hra jako taková je hodně jednoduchá a trochu bastl, účel ale splnila. Vizuál jsem si kompletně vyráběla sama, ale hudbu jsem si půjčila, během hry hraje Out of Body (Dance with the dead), na závěr pak je slyšet Victory theme z Final Fantasy I. 
 Záznam herního průběhu je ke shlédnutí zde: [Video](https://youtu.be/q_o6vZlWboU)
