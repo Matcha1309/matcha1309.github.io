@@ -50,11 +50,14 @@ Inspirace a předlohy (tak jak byly na šifrovačce vypsány):
 6. Adolf Born, ze seriálu Mach a Šebestová
 7. Caspar David Friedrich, Poutník nad mořem mlhy
 
-> Poznámka  
-> Seznam děl je v té samé podobě, jak byl předán řešitelům, nicméně pozorný divák si může všimnout, že známka číslo dva má fiktivního autora i název, jméno autora Torriho Toppinga, který by nakreslil mapu Afriky, bylo vytvořeno jako odkaz na skupinu Toto a píseň Africa.
+> ### Poznámka
+> Seznam děl je v té samé podobě, jak byl předán řešitelům, nicméně pozorný divák si
+> může všimnout, že známka číslo dva má fiktivního autora i název, jméno autora Torriho Toppinga,
+> který by nakreslil mapu Afriky, bylo vytvořeno jako odkaz na skupinu Toto a píseň Africa.
 
-> Poznámka 2  
-> Některé obrazy, které byly inspirací, nemají ustálený název v češtině, proto se může stát, že na obrazy, na které se tyto obrázky evidentně odkazují, můžete najít i pod jinými názvy.
+> ### Poznámka 2
+> Některé obrazy, které byly inspirací, nemají ustálený název v češtině, proto se může stát,
+> že na obrazy, na které se tyto obrázky evidentně odkazují, můžete najít i pod jinými názvy.
 
 
 Druhá akce byla hra na dětskou oslavu pro skupinku cca devítiletých dětí. A dva nejzajímavější úkoly, které jsem vyráběla, byla "šifra - pexeso" a závěrečná hra, která se hrála na počítači. Idea celé narozeninové hry byla, že z úkolů získávají (většinou najdou nebo vyndají po otevření různě zamčených krabiček) čip, který je součástkou nutnou pro řízení (krokodýlí?) vesmírné lodi, aby následně s lodí odletěli. Jeden z čipů byl například nalepen na záložce v knížce, jiný byl na magnetické tabuli, ale byl potřeba vyřešit rébus, aby věděli, kde ho hledat.
