@@ -9,3 +9,4 @@ A Zuffonek též:
 
 ![z_nemoc](/assets/img/z_15.png)
 
+P. S.: Zpětně si říkám, že přidávat (nebo vůbec psát) něco, co možná někdo uvidí, s horečkou, nebyl vůbec dobrý nápad. Oh, well...
