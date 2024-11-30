@@ -28,7 +28,7 @@ Na následujících čtyřech obrázcích (za které děkuji [oficiálnímu foto
 ![CyberOutfit3](/assets/img/cyber3.jpg){:width="100%"} 
 ![CysberLaser](/assets/img/cyber4.jpg){:width="100%"}
 
-Poslední detai: Protože moje peněženka s brýlatými kočičkami nebyla dostatečně cyberpunková, tak jsem si ušila z falešné koženky peněženku na karty, na kterou jsem našila jako knoflíky ty samé růžové knoflíky, ze kterých jsem vyrobila šperky a měla jsem jeden i jako knoflík k sukni. 
+Poslední detai: Protože moje peněženka s brýlatými kočičkami nebyla dostatečně cyberpunková, tak jsem si ušila z koženky peněženku na karty, na kterou jsem našila jako knoflíky ty samé růžové knoflíky, ze kterých jsem vyrobila šperky a měla jsem jeden i jako knoflík k sukni. 
 
 ![Penezenka](/assets/img/cyber5.jpg){:width="100%"}
 
