@@ -24,9 +24,18 @@
   </header>
   {% unless page.show_excerpts == false %}
     <div class="entry-excerpt p-summary">
-      {% if entry.excerpt %}
-        {{ entry.excerpt | markdownify }}
-      {% endif %}
+			{% if entry.excerpt %}
+				{% if entry.content contains "<!--begin_excerpt-->" %}
+					{{ entry.content
+					| split: "<!--end_excerpt-->"
+					| first
+					| split: "<!--begin_excerpt-->"
+					| last
+					| markdownify }}
+				{% else %}
+					{{ entry.excerpt | markdownify }}
+				{% endif %}
+			{% endif %}
     </div>
   {% endunless %}
   {% if site.read_time or entry.date and page.layout != 'collection' %}
