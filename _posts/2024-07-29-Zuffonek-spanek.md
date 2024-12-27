@@ -7,5 +7,5 @@ Po dnešních krásných 25 minutách spánku se nemohu ubránit jistému pokuš
 
 Takže pro všechny unavené: 
 
-![z_spanek](/assets/img/z_11.png)
+![z_spanek](/assets/img/zuffonek/z_11.png)
 
