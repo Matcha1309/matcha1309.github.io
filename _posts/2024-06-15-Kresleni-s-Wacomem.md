@@ -1,7 +1,9 @@
 ---
 title: "Kreslení s Wacomem, část 1"
 images:
+  - "/assets/img/wacom_photo.jpg"
   - "/assets/img/sewing.png"
+  - "/assets/img/sewing_new.png"
 ---
 
 Kdo zkoušel kreslit na počítači bez patřičného vybavení, zná to. Myš se nehýbe plynule, touchpad je nepohodlný a nepřesný, dotyková obrazovka moc malá. Zahodit to, jít si pro tužku a papír! Taky jsem to dřív viděla takhle. 
@@ -20,4 +22,4 @@ Pro porovnání, stejný obrázek ze současné doby:
 
 Mezi obrázky uběhlo přibližně tři čtvrtě roku. 
 
-Mým oblíbeným formátem se postpně staly motivy na placky. Spoustu si jich můžete prohlédnout v [Galerii](/galerie/).
+Mým oblíbeným formátem se postupně staly motivy na placky. Spoustu si jich můžete prohlédnout v [Galerii](/galerie/).
