@@ -9,7 +9,7 @@ images:
  
 ---
 
-Wrocław, město v Polsku. A taky nejzatrpaslíkovanější město (možná) na světě. 
+Wrocław, město v Polsku. A taky nejzatrpaslíkovanější město (možná) na celém světě. 
 
 ![trp](/assets/img/wroclaw/zed.jpg)
 
@@ -28,11 +28,11 @@ Anyway, tady je na mapě všech 96 trpaslíků, co jsem našla a vyfotila, plus 
 
 A nyní následuje průvod: 
 
-![trp](/assets/img/wroclaw/01.jpg){:width="20%"}
-![trp](/assets/img/wroclaw/02.jpg){:width="20%"}
-![trp](/assets/img/wroclaw/03.jpg){:width="20%"}
-![trp](/assets/img/wroclaw/04.jpg){:width="20%"}
-![trp](/assets/img/wroclaw/05.jpg){:width="20%"}
+![trp](/assets/img/wroclaw/01.jpg){:width="18%"}
+![trp](/assets/img/wroclaw/02.jpg){:width="18%"}
+![trp](/assets/img/wroclaw/03.jpg){:width="18%"}
+![trp](/assets/img/wroclaw/04.jpg){:width="18%"}
+![trp](/assets/img/wroclaw/05.jpg){:width="18%"}
 
 ![trp](/assets/img/wroclaw/08-09.jpg){:width="20%"}
 ![trp](/assets/img/wroclaw/10.jpg){:width="20%"}
