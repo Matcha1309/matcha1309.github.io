@@ -9,13 +9,13 @@ images:
  
 ---
 
-Wrocław, město v Polsku. A taky nejzatrpaslíkovanější město možná na světě. 
+Wrocław, město v Polsku. A taky nejzatrpaslíkovanější město (možná) na světě. 
 
 ![trp](/assets/img/wroclaw/zed.jpg)
 
 Před Vánoci mě rodiče vzali na zájezd do Wrocławi (česky Vratislavi). O městě jako takovém ale mluvit nechci, byť by to asi taky stálo za to. Průvodkyně na začáku vyprávěla o tom, že po městě je poschovávána spousta trpaslíků. Že je to památník na [politické protesty proti komunismu](https://cs.wikipedia.org/wiki/Oran%C5%BEov%C3%A1_alternativa) a cenzuře a tak dále. A pak vyhlásila soutěž: kdo najde nejvíc trpaslíků, dostane karamelku. 
 Z politického protestu (původně trpaslíky malovali protestující na zdi, kde původně byl slogan nebo báseň, kterou systém zamazal barvou) se brzo stala tak trochu turistická atrakce. Od roku 2005 (resp. 2001) se začali po městě objevovat malí brozoví [trpaslíci](https://en.wikipedia.org/wiki/Wroc%C5%82aw_Dwarfs), nejdřív jako památníčky, později, aby zábavychtiví turisti měli co dělat. Ale to nevadí, že je to past na turisty, tahle stála za to. 
-Ne, že bych to dělala kvůli nějaké karamelce nebo obecně soutěži a ne že bych si neprohlížela město, ale moje hlava mi nedovolila trpaslíky nehledat. Nakonec jsem je nehledala aktivně, ale prostě se sami objevovali a já měla pořád v koutku oka nějakého trpaslíka, který mával, abych si ho všimla. 
+Ne, že bych to dělala kvůli nějaké karamelce nebo obecně soutěži a ne že bych si u toho neprohlížela město, ale moje hlava mi nedovolila trpaslíky nehledat. Nakonec jsem je nehledala aktivně, ale prostě se sami objevovali a já měla pořád v koutku oka nějakého trpaslíka, který mával, abych si ho všimla. 
 Ano, mohla jsem si najít mapu (nebo si ji koupit v místním trpasličím centru), procházet v [aplikaci](https://cubesoft.pl/project/go-wroclaw-dwarfs/) polohy všech cca 900 trpaslíků (nebo taky krasnoludków nebo krasnalow, jak se jmenují polsky), ale nic z toho jsem nechtěla dělat, to by přece zkazilo všechnu legraci, navíc jsem to ani nepotřebovala, v hlavě mi neustále na pozadí běžela nevypnutelná detekce trpaslíků. 
 Nakonec jsem si prohlédla město, prošla vánoční trhy a vyfotila celkem 96 trpaslíků. Podle fotek jsem dohledala v mapě všechny, co jsem potkala. 
 
