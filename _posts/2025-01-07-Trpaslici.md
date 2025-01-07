@@ -22,13 +22,13 @@ Wrocław, město v Polsku. A taky nejzatrpaslíkovanější město (možná) na 
 ![trp](/assets/img/wroclaw/zed.jpg)
 
 Před Vánoci mě rodiče vzali na zájezd do Wrocławi (česky Vratislavi). O městě jako takovém ale mluvit nechci, byť by to asi taky stálo za to. Průvodkyně na začáku vyprávěla o tom, že po městě je poschovávána spousta trpaslíků. Že je to památník na [politické protesty proti komunismu](https://cs.wikipedia.org/wiki/Oran%C5%BEov%C3%A1_alternativa) a cenzuře a tak dále. A pak vyhlásila soutěž: kdo najde nejvíc trpaslíků, dostane karamelku. 
-Z politického protestu (původně trpaslíky malovali protestující na zdi, kde původně byl slogan nebo báseň, kterou systém zamazal barvou) se brzo stala tak trochu turistická atrakce. Od roku 2005 (resp. 2001) se začali po městě objevovat malí brozoví [trpaslíci](https://en.wikipedia.org/wiki/Wroc%C5%82aw_Dwarfs), nejdřív jako památníčky, později, aby zábavychtiví turisti měli co dělat. Ale to nevadí, že je to past na turisty, tahle stála za to. 
+Z politického protestu (původně trpaslíky malovali protestující na zdi, kde původně byl slogan nebo báseň, kterou systém zamazal barvou) se brzo stala tak trochu turistická atrakce. Od roku 2005 (resp. 2001) se začali po městě objevovat malí bronzoví [trpaslíci](https://en.wikipedia.org/wiki/Wroc%C5%82aw_Dwarfs), nejdřív jako památníčky, později, aby zábavychtiví turisti měli co dělat. Ale to nevadí, že je to past na turisty, tahle stála za to. 
 Ne, že bych to dělala kvůli nějaké karamelce nebo obecně soutěži a ne že bych si u toho neprohlížela město, ale moje hlava mi nedovolila trpaslíky nehledat. Nakonec jsem je nehledala aktivně, ale prostě se sami objevovali a já měla pořád v koutku oka nějakého trpaslíka, který mával, abych si ho všimla. 
 Ano, mohla jsem si najít mapu (nebo si ji koupit v místním trpasličím centru), procházet v [aplikaci](https://cubesoft.pl/project/go-wroclaw-dwarfs/) polohy všech cca 900 trpaslíků (nebo taky krasnoludków nebo krasnalow, jak se jmenují polsky), ale nic z toho jsem nechtěla dělat, to by přece zkazilo všechnu legraci, navíc jsem to ani nepotřebovala, v hlavě mi neustále na pozadí běžela nevypnutelná detekce trpaslíků. 
-Nakonec jsem si prohlédla město, prošla vánoční trhy a vyfotila celkem 96 trpaslíků. Podle fotek jsem dohledala v mapě všechny, co jsem potkala. 
+Nakonec jsem si prohlédla město, prošla vánoční trhy a vyfotila celkem 95 trpaslíků. Podle fotek jsem dohledala v mapě všechny, co jsem potkala. 
 
-Byla to docela fuška najít všechny, protože jsem do té mapy nekoukala průběžně a nepoznamenávala jsem si polohu, takže asi dvěma si nejsem jistá. Často jsem se chytala odficiální polohy, ale ta je občas mimo a někteří trpaslíci v mapách cz ani nejsou. A než bych si stáhla oficiální aplikaci, to radši budu vyklikávat ručně. 
-Anyway, tady je na mapě všech 96 trpaslíků, co jsem našla a vyfotila, plus jedna kočka k hlazení navíc: 
+Byla to docela fuška najít všechny, protože jsem do té mapy nekoukala průběžně a nepoznamenávala jsem si polohu, takže asi dvěma si nejsem jistá. Často jsem se chytala oficiální polohy, ale ta je občas mimo a někteří trpaslíci v mapách cz ani nejsou. A než bych si stáhla oficiální aplikaci, to radši budu vyklikávat ručně. 
+Anyway, tady je na mapě všech 95 trpaslíků, co jsem našla a vyfotila, plus jedna kočka k hlazení navíc: 
 
 ![mapa](/assets/img/wroclaw/trpaslici_mapa.png)
 
@@ -129,10 +129,9 @@ A nyní následuje průvod:
 ![trp](/assets/img/wroclaw/88.jpg){:width="18%"}
 ![trp](/assets/img/wroclaw/89.jpg){:width="18%"}
 ![trp](/assets/img/wroclaw/90.jpg){:width="18%"}
-![trp](/assets/img/wroclaw/91.jpg){:width="18%"}
 ![trp](/assets/img/wroclaw/92.jpg){:width="18%"}
-
 ![trp](/assets/img/wroclaw/93.jpg){:width="18%"}
+
 ![trp](/assets/img/wroclaw/94.jpg){:width="18%"}
 ![trp](/assets/img/wroclaw/95.jpg){:width="18%"}
 ![trp](/assets/img/wroclaw/96.jpg){:width="18%"}
@@ -146,5 +145,9 @@ P.S.: Karamelku jsem vyhrála, i když jsem to kvůli ní nedělala (pravděpodo
 P.P.S.: Trpaslíci jsou evidentně silně invazivní druh, který se rychle množí a cestuje na velké vzdálenosti, něco jako semínka migrující v těle tažných ptáků. Tenhle drahoušek je aktuálně v mojí kapse na klíčích (vedle mini funko pop yody) a určitě už připravuje přesun posil. 
 
 ![invaze](/assets/img/wroclaw/invaze.jpg)
+
+
+> ### Pozn.
+> Až když jsem měla všechno hotovo, zjistila jsem neexistenci trpaslíka č. 91, tedy je opravdu trpaslíků 95, i když jsou číslovaní do 96. 
 
 Další moje fotky nebo obrázky můžete vidět v [Galerii](/galerie/).
