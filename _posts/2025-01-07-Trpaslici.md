@@ -137,7 +137,7 @@ A nyní následuje průvod:
 ![trp](/assets/img/wroclaw/95.jpg){:width="18%"}
 ![trp](/assets/img/wroclaw/96.jpg){:width="18%"}
 
-Trpaslíci jsou částečně v náhodném pořadí, částečně jsou v pořadí, jak jsem je fotila, čístečně jak jsem je hledala na mapě a částečně, jak jsem je stahovala z mobilu. 
+Trpaslíci jsou částečně v náhodném pořadí, částečně jsou v pořadí, jak jsem je fotila, částečně jak jsem je hledala na mapě a částečně, jak jsem je stahovala z mobilu. 
 
 P.S.: Karamelku jsem vyhrála, i když jsem to kvůli ní nedělala (pravděpodobně na rozdíl od druhého umístěného, který, ač nejspíš fotil trpaslíky kompetitivně, měl jich něco jako 56, jestli jsem teda slyšela dobře) a i když jsem špatně spočítala, kolik trpaslíků mám (nahlásila jsem "jen" 87). 
 
