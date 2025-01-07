@@ -8,10 +8,13 @@ images:
   - "/assets/img/wroclaw/invaze.jpg"
  
 ---
+<!--begin_excerpt-->
 
 Wrocław, město v Polsku. A taky nejzatrpaslíkovanější město možná na světě. 
 
 ![trp](/assets/img/wroclaw/zed.jpg)
+
+<!--end_excerpt-->
 
 Před Vánoci mě rodiče vzali na zájezd do Wrocławi (česky Vratislavi). O městě jako takovém ale mluvit nechci, byť by to asi taky stálo za to. Průvodkyně na začáku vyprávěla o tom, že po městě je poschovávána spousta trpaslíků. Že je to památník na [politické protesty proti komunismu](https://cs.wikipedia.org/wiki/Oran%C5%BEov%C3%A1_alternativa) a cenzuře a tak dále. A pak vyhlásila soutěž: kdo najde nejvíc trpaslíků, dostane karamelku. 
 Z politického protestu (původně trpaslíky malovali protestující na zdi, kde původně byl slogan nebo báseň, kterou systém zamazal barvou) se brzo stala tak trochu turistická atrakce. Od roku 2005 (resp. 2001) se začali po městě objevovat malí brozoví [trpaslíci](https://en.wikipedia.org/wiki/Wroc%C5%82aw_Dwarfs), nejdřív jako památníčky, později, aby zábavychtiví turisti měli co dělat. Ale to nevadí, že je to past na turisty, tahle stála za to. 
