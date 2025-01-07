@@ -6,7 +6,15 @@ images:
 
   - "/assets/img/wroclaw/zed.jpg"
   - "/assets/img/wroclaw/invaze.jpg"
- 
+
+  - "/assets/img/wroclaw/03.jpg"
+  - "/assets/img/wroclaw/04.jpg"
+  - "/assets/img/wroclaw/29.jpg"
+  - "/assets/img/wroclaw/35.jpg"
+  - "/assets/img/wroclaw/42-43.jpg"
+  - "/assets/img/wroclaw/44.jpg"
+  - "/assets/img/wroclaw/74.jpg"
+  - "/assets/img/wroclaw/75.jpg"
 ---
 
 Wrocław, město v Polsku. A taky nejzatrpaslíkovanější město (možná) na celém světě. 
