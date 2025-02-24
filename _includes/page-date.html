@@ -1,4 +1,19 @@
 <time class="page-date dt-published" datetime="{{ page.date | date_to_xmlschema }}">
-  {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
-  <a class="u-url" href="{{ entry.url | relative_url }}">{{ page.date | date: date_format }}</a>
+	{%- assign date_format = site.date_format | default: "%-d. %B, %Y" -%}
+	<a class="u-url" href="{{ entry.url | relative_url }}">
+		{{- page.date |
+		date: date_format |
+		replace: "January", "Leden" |
+		replace: "February", "Únor" |
+		replace: "March", "Březen" |
+		replace: "April", "Duben" |
+		replace: "May", "Květen" |
+		replace: "June", "Červen" |
+		replace: "July", "Červenec" |
+		replace: "August", "Srpen" |
+		replace: "September", "Září" |
+		replace: "October", "Říjen" |
+		replace: "November", "Listopad" |
+		replace: "December", "Prosinec" -}}
+	</a>
 </time>

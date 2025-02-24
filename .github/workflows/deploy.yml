@@ -20,17 +20,15 @@ jobs:
     permissions:
       contents: write
     steps:
-
       # Put repository source onto the runner so we can build it
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Install the proper version of Ruby and run bundle install
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-          cache-version: 1
           ruby-version: '3.0'
 
       - name: Setup Node
@@ -43,10 +41,22 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+
+      - name: Debug build output
+        run: ls -la _site/
+
+      - name: Check if _site exists before upload
+        run: |
+          if [ ! -d "_site" ]; then
+            echo "_site directory is missing!"
+            exit 1
+          fi
+
       - name: Upload artifact to GitHub Pages
         id: artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages # Ensure artifact is named
           path: _site/
 
   deploy:
@@ -58,7 +68,6 @@ jobs:
       pages: write # to deploy to Pages
       id-token: write # to verify the deployment originates from an appropriate source
 
-    # Deploy to the github-pages environment
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -68,5 +77,6 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
-
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages # Ensure deploy step matches upload name
