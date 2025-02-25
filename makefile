@@ -18,7 +18,8 @@ install:
 	bundle config set --local path '.vendor/bundle'
 	bundle install
 
-upload: build
-	echo Start upload
-	rsync -varhIu -e "ssh -p 222" --progress --delete _site/ jan@ggu.cz:/userdata/users/jan/web/lyricall.cz/
+update:
+	bundle update
+	bundle update --bundler
+	bundle install
 
