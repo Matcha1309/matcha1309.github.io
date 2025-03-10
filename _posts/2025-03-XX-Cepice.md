@@ -1,0 +1,39 @@
+---
+title: "Za časů neušatých čepic"
+images:
+
+  - "/assets/img/cepice/cep_01.jpg"
+  - "/assets/img/cepice/cep_02.jpg"
+  - "/assets/img/cepice/cep_03.jpg"
+  - "/assets/img/cepice/cep_04.jpg"
+  - "/assets/img/cepice/cep_05.jpg"
+  - "/assets/img/cepice/cep_06.jpg"
+  - "/assets/img/cepice/cep_07.jpg"
+  - "/assets/img/cepice/cep_08.jpg"
+
+---
+
+<!--begin_excerpt-->
+
+"Za časů (ne)ušatých čepic, když (asi tak tři dny) ještě mrzlo až praštělo...", abych se tak odkázala Kubulu a Kubu Kubikulu, "a lidé věřili na 'život po zkouškovém'."
+Čepice už dneska nejsou ušaté, ale o to líp si jde udělat takovou doma. 
+
+<!--end_excerpt-->
+
+Občas mám sklony začít dělat věc, a pak najednou je o den později a já zjistím, že jsem vygenerovala něco, co by zásobilo trh menšího státu. Před časem to tak u mě bylo s čepicemi, prostě jsem začala plést a pletla jsem a pletla. Na štěstí už mám pletení takovýchhle jednoduchých věcí tak v ruce, že už na to nemusím ani koukat, ani nad tím nemusím nijak zvlášť přemýšlet. A najednou koukám, že sedím v menší hromádce čepic. 
+
+Tady ukázka několika modelů: 
+
+![cep_duhova1](/assets/img/cepice/cep_01.jpg){:width="30%"} ![cep_duhova2](/assets/img/cepice/cep_02.jpg){:width="30%"} ![cep_zelena](/assets/img/cepice/cep_03.jpg){:width="30%"}
+
+![cep_zluta](/assets/img/cepice/cep_04.jpg){:width="30%"} ![cep_oranzova](/assets/img/cepice/cep_05.jpg){:width="30%"} ![cep_fialova](/assets/img/cepice/cep_06.jpg){:width="30%"}
+
+Zvláštní pozornost si určitě zaslouží tenhle model - čepice pro spoustu vlasů (kdybych je měla): 
+
+![cep_modra1](/assets/img/cepice/cep_07.jpg){:width="50%"} ![cep_modra2](/assets/img/cepice/cep_08.jpg){:width="50%"}
+
+Tahle čepice je pro všechny, co mají vlasy rádi nahoře v drdolu, který se nikam ne a ne vejít. 
+
+Teď už ale máme jaro, tak je to spíš taková vzpomínka na to, že může existovat i něco jako dost velká zima na čepice. 
+
+Další výrobky můžete vidět v [Galerii](/galerie/). Pokud byste měli zájem o návod na pletené čepice, [napiště mi](mailto:matcha1309@hotmail.com)!
