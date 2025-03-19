@@ -1,7 +1,6 @@
 ---
 title: "Pro jednou kreslení tužkou"
 images:
-  - "/assets/img/kresleni_trad/penal_tuzka_00.jpg"
   - "/assets/img/kresleni_trad/penal_tuzka_05.jpg"
   - "/assets/img/kresleni_trad/face_t_03.jpg"
   - "/assets/img/kresleni_trad/face_t_04.jpg"
@@ -9,6 +8,7 @@ images:
   - "/assets/img/kresleni_trad/face_t_08.jpg"
   - "/assets/img/kresleni_trad/face_t_10.jpg"
   - "/assets/img/kresleni_trad/face_t_11.jpg"
+  - "/assets/img/kresleni_trad/face_t_12.jpg"
 
 ---
 
