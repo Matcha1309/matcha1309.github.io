@@ -23,7 +23,7 @@ images:
   - "/assets/img/ceteri/cet14.jpg"
   
   - "/assets/img/ceteri/group.jpg"
-  - "/assets/img/ceteri/group_kresleni.jpg"
+  - "/assets/img/ceteri/group_kresleni.png"
 
 ---
 
@@ -56,6 +56,6 @@ Ceteří gang si tvoří i hromadné obydlí, tzv. ceterárium. Můžete vidět,
 
 Takže pokud někdy uvidíte ve volné přírodě cetera, dokonale nedokonalého, vzpomeňte si, že možná hledá svůj gang. 
 
-![ceteri](/assets/img/ceteri/group_kresleni.jpg)
+![ceteri](/assets/img/ceteri/group_kresleni.png)
 
 Další moje obrázky můžete vidět v [Galerii](/galerie/). Pokud vás zajímá další háčkování, doporučuji nedávný příspěvek o [narozeninovém Yodovi](https://matcha1309.github.io/Yoda/) nebo o [háčkovaných květinách](https://matcha1309.github.io/Kvety/).
