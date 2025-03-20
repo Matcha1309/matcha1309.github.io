@@ -39,7 +39,7 @@ Ceteři jsou každý jiný, ale všichni tak trochu stejní. Jsou nedokonalí, j
 
 ![ceteri](/assets/img/ceteri/cet01.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet02.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet03_1.jpg){:width="30%"}
 ![ceteri](/assets/img/ceteri/cet03_2.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet04_1.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet04_2.jpg){:width="30%"}
-![ceteri](/assets/img/ceteri/cet05.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet05_1.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet05_2.jpg){:width="30%"}
+![ceteri](/assets/img/ceteri/cet05.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet06_1.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet06_2.jpg){:width="30%"}
 ![ceteri](/assets/img/ceteri/cet07_1.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet07_2.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet08.jpg){:width="30%"}
 ![ceteri](/assets/img/ceteri/cet09.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet10.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet11.jpg){:width="30%"}
 ![ceteri](/assets/img/ceteri/cet12.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet13.jpg){:width="30%"} ![ceteri](/assets/img/ceteri/cet14.jpg){:width="30%"}
