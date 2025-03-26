@@ -3,7 +3,7 @@ SHELL=/usr/bin/sh
 .PHONY: run
 
 run:
-	bundle exec jekyll serve --trace #--verbose
+	bundle exec jekyll serve --trace --future #--verbose
 
 deploy: build upload
 
