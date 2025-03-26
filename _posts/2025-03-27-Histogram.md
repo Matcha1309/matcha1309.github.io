@@ -3,22 +3,30 @@ title: "Hraní si s histogramy"
   
 ---
 
-Krátká vsuvka - minulý týden jsme si ve škole hráli s barevnými histogramy. 
-Úkol byl jasný, pro několik snímků z videa udělat 3D histogram barev, v prostoru RGB, přepočtený tak, aby byly hodnoty v každé ose přepočítány místo z 0-255 na 0-3. 
-Proč neudělat pěkné video side-by-side s původním? Proč si celý histogram nechat zastínit pozadím? 
+Krátká vsuvka - minulý týden jsme si ve škole hráli s barevnými histogramy.
+Úkol byl jasný, pro několik snímků z videa udělat 3D histogram barev, v prostoru RGB,
+přepočtený tak, aby byly hodnoty v každé ose přepočítány místo z $$0$$-$$255$$ na $$0$$-$$3$$.
+Proč neudělat pěkné video side-by-side s původním? Proč si celý histogram nechat zastínit pozadím?
 
 ![h1](/assets/img/histogramy/hist01.png)
 
-Tady jedna ilustrace z videa s oranžovou rybou, co jsem udělala už ve škole. Ale na videu s rybou se toho moc nemění. 
+Tady jedna ilustrace z videa s oranžovou rybou, co jsem udělala už ve škole. Ale na videu s rybou se toho moc nemění.
 
-Ve výsledku, na který se můžete podívat níže, je video, které jsem stáhla z youtube (kanál @PetrGanaj), ke kterému jsou "přilepené" histogramy (spočítaný je eden histogram na šest snímků původního videa, tedy čtyři za sekundu), naanimované tak, aby běžely synchronizovaně. Histogram ignoruje černou (#000000), aby odfiltroval pozadí - čistě černá se totiž v kvetoucím tulipánu objevuje naprosto minimálně. Velikosti kroužků v histogramu odpovídají poměrnému zastoupení daného "chlívečku", do kterého barva spadne, barva je dotyčného "chlívečku" a střed kolečka je umístěn uprostřed. 
-Počítání histogramů bylo realizováno v pythonu, pro rozdělení videa na framy a slepení původních framů se zpracovanými histogramy byl použit ffmpeg. 
+Ve výsledku, na který se můžete podívat níže, je video, které jsem stáhla z youtube (kanál [@PetrGanaj](https://www.youtube.com/@PetrGanaj)),
+ke kterému jsou "přilepené" histogramy (spočítaný je eden histogram na šest snímků původního videa,
+tedy čtyři za sekundu), naanimované tak, aby běžely synchronizovaně. Histogram ignoruje černou (`#000000`),
+aby odfiltroval pozadí - čistě černá se totiž v kvetoucím tulipánu objevuje naprosto minimálně.
+Velikosti kroužků v histogramu odpovídají poměrnému zastoupení daného "chlívečku", do kterého barva spadne,
+barva je dotyčného "chlívečku" a střed kolečka je umístěn uprostřed.
+Počítání histogramů bylo realizováno v pythonu, pro rozdělení videa na framy a slepení původních
+framů se zpracovanými histogramy byl použit [ffmpeg](https://ffmpeg.org/).
 
-Výsldek můžete shlédnout zde: [Video](https://youtu.be/YmgYflAUBVc), pokud by vás zajímal kód, můžete ho vidět [tady](https://matcha1309.github.io/histogram) TODO! (odkaz nefunguje). 
+Výsledek můžete shlédnout zde: [Video](https://youtu.be/YmgYflAUBVc), pokud by vás zajímal kód,
+můžete ho vidět [tady](https://matcha1309.github.io/histogram) TODO! (odkaz nefunguje).
 
 ![h2](/assets/img/histogramy/hist02.jpg)
 
-A jak se to vlastně dělá? 
+## A jak se to vlastně dělá? 
 
 {% details FFMPEG - rozdělení na framy %}
 ```bash
