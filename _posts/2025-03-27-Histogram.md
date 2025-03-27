@@ -23,8 +23,7 @@ barva je dotyčného "chlívečku" a střed kolečka je umístěn uprostřed.
 Počítání histogramů bylo realizováno v pythonu, pro rozdělení videa na framy a slepení původních
 framů se zpracovanými histogramy byl použit [ffmpeg](https://ffmpeg.org/).
 
-Výsledek můžete shlédnout zde: [Video](https://youtu.be/YmgYflAUBVc), pokud by vás zajímal kód,
-můžete ho vidět [tady](https://matcha1309.github.io/histogram) TODO! (odkaz nefunguje).
+Výsledek můžete shlédnout zde: [Video](https://youtu.be/YmgYflAUBVc)
 
 ![h2](/assets/img/histogramy/hist02.jpg)
 
