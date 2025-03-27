@@ -1,6 +1,6 @@
 ---
 title: "Hraní si s histogramy"
-
+images: 
 - "/assets/img/histogramy/hist02.png"  
 ---
 <!--begin_excerpt-->
