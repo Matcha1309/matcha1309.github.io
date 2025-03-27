@@ -2,16 +2,16 @@
 title: "Hraní si s histogramy"
   
 ---
-
-Krátká vsuvka - minulý týden jsme si ve škole hráli s barevnými histogramy.
+<!--begin_excerpt-->
+Krátká vsuvka - předminulý týden jsme si ve škole hráli s barevnými histogramy.
 Úkol byl jasný, pro několik snímků z videa udělat 3D histogram barev, v prostoru RGB,
-přepočtený tak, aby byly hodnoty v každé ose přepočítány místo z $$0$$-$$255$$ na $$0$$-$$3$$.
-Proč neudělat pěkné video side-by-side s původním? Proč si celý histogram nechat zastínit pozadím?
+přepočtený tak, aby byly hodnoty v každé ose přepočítány místo z 0-255 na 0-3.
 
 ![h1](/assets/img/histogramy/hist01.png)
-
+<!--end_excerpt-->
 Tady jedna ilustrace z videa s oranžovou rybou, co jsem udělala už ve škole. Ale na videu s rybou se toho moc nemění.
 
+Proč neudělat pěkné video side-by-side s původním? Proč si celý histogram nechat zastínit pozadím?
 Ve výsledku, na který se můžete podívat níže, je video, které jsem stáhla z youtube (kanál [@PetrGanaj](https://www.youtube.com/@PetrGanaj)),
 ke kterému jsou "přilepené" histogramy (spočítaný je eden histogram na šest snímků původního videa,
 tedy čtyři za sekundu), naanimované tak, aby běžely synchronizovaně. Histogram ignoruje černou (`#000000`),
