@@ -10,6 +10,7 @@ přepočtený tak, aby byly hodnoty v každé ose přepočítány místo z 0-255
 
 ![h1](/assets/img/histogramy/hist01.png)
 <!--end_excerpt-->
+
 Tady jedna ilustrace z videa s oranžovou rybou, co jsem udělala už ve škole. Ale na videu s rybou se toho moc nemění.
 
 Proč neudělat pěkné video side-by-side s původním? Proč si celý histogram nechat zastínit pozadím?
