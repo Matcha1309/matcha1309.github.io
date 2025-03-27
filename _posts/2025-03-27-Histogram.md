@@ -1,6 +1,7 @@
 ---
 title: "Hraní si s histogramy"
-  
+
+- "/assets/img/histogramy/hist02.png"  
 ---
 <!--begin_excerpt-->
 Krátká vsuvka - předminulý týden jsme si ve škole hráli s barevnými histogramy.
