@@ -38,7 +38,7 @@ Výsledkem mělo být jednoslovné heslo. V názvech a autorech inspirací není
 
 ![Znamky1](/assets/img/hravy/znamky1.png){:width="40%"} ![Znamky2](/assets/img/hravy/znamky2.png){:width="40%"}
 ![Znamky3](/assets/img/hravy/znamky3.png){:width="40%"} ![Znamky4](/assets/img/hravy/znamky4.png){:width="40%"}
-![Znamky5](/assets/img/hravy/znamky5.png){:width="40%"} ![Znamky6](/assets/imghravy//znamky6.png){:width="40%"}
+![Znamky5](/assets/img/hravy/znamky5.png){:width="40%"} ![Znamky6](/assets/img/hravy//znamky6.png){:width="40%"}
 ![Znamky7](/assets/img/hravy/znamky7.png){:width="40%"}
 
 Inspirace a předlohy (tak jak byly na šifrovačce vypsány):
