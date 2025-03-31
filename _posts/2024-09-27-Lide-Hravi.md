@@ -64,8 +64,8 @@ Druhá akce byla hra na dětskou oslavu pro skupinku cca devítiletých dětí. 
 Pexeso nebylo skutečné hrací pexeso, protože mělo 31 kartiček, patnáct párů a jednu lichou, uvnitř které byla čipová samolepka. Tuto lichou kartičku stačilo přiložit ke čtečce čipů.
 Pexesu jsem navrhla a kreslila veškerý vizuál, tedy všechny přední strany i záda. Stejně tak na mně bylo kartičky pexesa slepit a vystříhat, protože bylo nutné, aby všechny byly dvouvrstvé, aby se do jedné z nich dala ta samolepka s čipem mezi vrstvy vlepit.
 
-![P1](/assets/img/hravy/Pexeso01.png){:width="30%"} ![P2](/assets/img/hravy/Pexeso02.png){:width="30%"} ![P3](/assets/img/Pexeso03.png){:width="30%"} 
-![P4](/assets/img/hravy/Pexeso12.png){:width="30%"} ![P5](/assets/img/hravy/Pexeso05.png){:width="30%"} ![P6](/assets/img/hravy/Pexeso06.png){:width="30%"}
+![P1](/assets/img/hravy/Pexeso01.png){:width="30%"} ![P2](/assets/img/hravy/Pexeso02.png){:width="30%"} ![P3](/assets/img/hravy/Pexeso03.png){:width="30%"} 
+![P4](/assets/img/hravy/Pexeso04.png){:width="30%"} ![P5](/assets/img/hravy/Pexeso05.png){:width="30%"} ![P6](/assets/img/hravy/Pexeso06.png){:width="30%"}
 ![P7](/assets/img/hravy/Pexeso07.png){:width="30%"} ![P8](/assets/img/hravy/Pexeso08.png){:width="30%"} ![P9](/assets/img/hravy/Pexeso09.png){:width="30%"}
 ![P10](/assets/img/hravy/Pexeso10.png){:width="30%"} ![P11](/assets/img/hravy/Pexeso11.png){:width="30%"} ![P12](/assets/img/hravy/Pexeso12.png){:width="30%"}
 ![PB](/assets/img/hravy/PexesoBack.png){:width="50%"}
