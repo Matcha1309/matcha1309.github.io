@@ -1,5 +1,5 @@
 ---
-title: "Zuffonek & sebeláska"
+title: "Zuffonek & \"sebeláska\""
 ---
 
 Jeden trochu temnější Zuffonek - prosím, mějte se rádi, nikdo jiný to za vás neudělá!
