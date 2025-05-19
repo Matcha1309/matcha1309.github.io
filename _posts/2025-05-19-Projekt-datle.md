@@ -16,35 +16,35 @@ Datle jsou ovoce, co roste na palmách. Dá se kandovat, dá se sušit, dá se j
 Ve stejnou dobu, jako jsem dala silvestrovské pecky z avokáda do vody, jsem zkusila zpracovat i pecky z vánočních datlí - nejdříve jsem je umyla ve vlažné vodě, a pak jsem jich všech cca dvacet jednu po druhé svisle napůl zapíchala do hlíny, kterou jsem rosila a zakryla sáčkem, aby měli datlíci teplo a vlhko. 
 (Na fotce je jeden ze dvou takových "skleníčků")
 
-![datle_sklenik](/assets/img/kvety/datle/D1.jpg)
+![datle_sklenik](/assets/img/datle/D1.jpg)
 
 První pohyb jsem zaznamenala 4. 3., ale už nějakou dobu se musel dít, nicméně začátkem března jsem z hlíny vytáhla první zakořeněné datle, které jsem zasadila do provizoních květináčů (vyrobených z uříznutých lahví s propíchanými dírkami - lahve proto, aby byl květináč úzký a dost hluboký pro datlový kořen).
 
-![0403](/assets/img/kvety/datle/D2.jpg)
+![0403](/assets/img/datle/D2.jpg)
 
 Další úspěchy brzy následovaly a brzo jsem měla pecek s kořínkem několik. Další posun nastal 18. 3., kdy začaly vylézat z hlíny listy (takové spíš výhonky, ale uvidíme později).
 
-![1803](/assets/img/kvety/datle/D3.jpg)
+![1803](/assets/img/datle/D3.jpg)
 
 Hned 19.3. se mi podařilo zachytit sotva klubající se kořínky na dalších peckách, zatímco ty nejstarší datle rostly každým dnem výš a výš. 
 
-![1903](/assets/img/kvety/datle/D4.jpg)
+![1903](/assets/img/datle/D4.jpg)
 
 Teké mě překvapilo, jak daleko od pecek některé listy rostly, tato fotka je další nový začátek z 21. 3.:
 
-![2103](/assets/img/kvety/datle/D5.jpg)
+![2103](/assets/img/datle/D5.jpg)
 
 A zde už stav v té době čtyřech nejnadějnějších z 24. 3., to byl taky den, kdy jsem dostala "geniální a převratný" nápad si květináče označit písmeny podle "data narození" - doby, kdy začaly rašit první listy. 
 
-![2403](/assets/img/kvety/datle/D6.jpg)
+![2403](/assets/img/datle/D6.jpg)
 
 Přišel duben, na apríla už bylo výhonků pět, ale další měl brzy následovat. 
 
-![0104](/assets/img/kvety/datle/D7.jpg)
+![0104](/assets/img/datle/D7.jpg)
 
 Dne 8. 4. už jsem byla na šesti, ty první už solidně vysoké: 
 
-![0804](/assets/img/kvety/datle/D8.jpg)
+![0804](/assets/img/datle/D8.jpg)
 
 Další update mám ze 17. 4., kdy jsem musela přesadit do hlubšího květináče zatím poslední rašící datli, protože jsem ustřihla lahev moc nízko. A to mi odpovědělo na to, okud vlastně na rostlině ten list klíčí (a proč je to tak daleko od pecky).
 
@@ -52,11 +52,11 @@ Další update mám ze 17. 4., kdy jsem musela přesadit do hlubšího květiná
 
 A nyní už datle z 1. 5., hezky vyrovnané zleva doprava A-G:
 
-![0105](/assets/img/kvety/datle/D10.jpg)
+![0105](/assets/img/datle/D10.jpg)
 
 Od té doby se toho s nimi moc nedělo, takže poslední fotku ze dne 17. 5. můžete vidět tady. Říkám poslední fotku, protože o víkendu se všechny datle kromě C vydaly do světa. Možná na některé dostanu ještě nějaké updaty, ale odteď to bude jen já a C. 
 
-![1705](/assets/img/kvety/datle/D11.jpg)
+![1705](/assets/img/datle/D11.jpg)
 
 P.S.: den 17. 5. byl také prvním dnem, kdy byl zachycen u některé z datlí (konkrétně D) druhý list. 
 
