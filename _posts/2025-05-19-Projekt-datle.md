@@ -18,7 +18,7 @@ Ve stejnou dobu, jako jsem dala silvestrovské pecky z avokáda do vody, jsem zk
 
 ![datle_sklenik](/assets/img/datle/D1.jpg)
 
-První pohyb jsem zaznamenala 4. 3., ale už nějakou dobu se musel dít, nicméně začátkem března jsem z hlíny vytáhla první zakořeněné datle, které jsem zasadila do provizoních květináčů (vyrobených z uříznutých lahví s propíchanými dírkami - lahve proto, aby byl květináč úzký a dost hluboký pro datlový kořen).
+První pohyb jsem zaznamenala 4. 3., ale už nějakou dobu se musel dít, nicméně začátkem března jsem z hlíny vytáhla první zakořeněné datle, které jsem zasadila do provizorních květináčů (vyrobených z uříznutých lahví s propíchanými dírkami – lahve proto, aby byl květináč úzký a dost hluboký pro datlový kořen).
 
 ![0403](/assets/img/datle/D2.jpg)
 
@@ -46,7 +46,7 @@ Dne 8. 4. už jsem byla na šesti, ty první už solidně vysoké:
 
 ![0804](/assets/img/datle/D8.jpg)
 
-Další update mám ze 17. 4., kdy jsem musela přesadit do hlubšího květináče zatím poslední rašící datli, protože jsem ustřihla lahev moc nízko. A to mi odpovědělo na to, okud vlastně na rostlině ten list klíčí (a proč je to tak daleko od pecky).
+Další update mám ze 17. 4., kdy jsem musela přesadit do hlubšího květináče zatím poslední rašící datli, protože jsem ustřihla lahev moc nízko. A to mi odpovědělo na to, odkud vlastně na rostlině ten list klíčí (a proč je to tak daleko od pecky).
 
 ![1704](/assets/img/datle/D9.jpg)
 
