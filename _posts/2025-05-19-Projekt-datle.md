@@ -1,10 +1,10 @@
 ---
 title: "Projekt datle"
 images:
-  - "/assets/img/kvety/datle/D2.jpg"
-  - "/assets/img/kvety/datle/D6.jpg"
-  - "/assets/img/kvety/datle/D9.jpg"
-  - "/assets/img/kvety/datle/D11.jpg"
+  - "/assets/img/datle/D2.jpg"
+  - "/assets/img/datle/D6.jpg"
+  - "/assets/img/datle/D9.jpg"
+  - "/assets/img/datle/D11.jpg"
   
 ---
 
@@ -48,7 +48,7 @@ Dne 8. 4. už jsem byla na šesti, ty první už solidně vysoké:
 
 Další update mám ze 17. 4., kdy jsem musela přesadit do hlubšího květináče zatím poslední rašící datli, protože jsem ustřihla lahev moc nízko. A to mi odpovědělo na to, okud vlastně na rostlině ten list klíčí (a proč je to tak daleko od pecky).
 
-![1704](/assets/img/kvety/datle/D9.jpg)
+![1704](/assets/img/datle/D9.jpg)
 
 A nyní už datle z 1. 5., hezky vyrovnané zleva doprava A-G:
 
