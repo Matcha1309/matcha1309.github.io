@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
+gem "jekyll", "~> 4.4.1"
 gem "webrick", "~> 1.8.1"
 gem "json"
-gem "jekyll", "~> 4.3.3"
 gem "csv"
 gem "base64"
 
