@@ -7,7 +7,7 @@ title: "Něco končí, něco začíná"
 Ozývám se po delší době, protože jsem teď měla divokých několik týdnů. Od posledního příspěvku se stalo až příliš věcí. Především ale budu od příštího roku přecházet na nové studium. 
 <!--end_excerpt-->
 
-Protože si toho musím dost ještě sama v sobě zpracovat, tak se dnes jen podělím o jeden kratší text, který jsem napsala. Text je občas trošku ulítlý, ke konci má být snad trochu vtipný, místy lehce nadsazený, ale ne příliš a jen občas. Celé vyprávění o holubovi je opravdové, skutečně tam ležel, jak můžete vidět na fotkách pod textem. Jádro je pravdivé, takže by se dalo říct "Příběh na motivy skutečné události": 
+Protože si toho musím dost ještě sama v sobě zpracovat, tak se dnes jen podělím o jeden kratší text k tématu, který jsem napsala. Text je občas trošku ulítlý, ke konci má být snad trochu vtipný, místy lehce nadsazený, ale ne příliš a jen občas. Celé vyprávění o holubovi je opravdové, skutečně tam ležel, jak můžete vidět na fotkách pod textem. Jádro je pravdivé, takže by se dalo říct "Příběh na motivy skutečné události": 
 
 
 
