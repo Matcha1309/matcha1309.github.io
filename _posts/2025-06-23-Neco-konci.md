@@ -1,17 +1,15 @@
 ---
 title: "Něco končí, něco začíná"
-  
 ---
 
 <!--begin_excerpt-->
-Ozývám se po delší době, protože jsem teď měla divokých několik týdnů. Od posledního příspěvku se stalo až příliš věcí. Především ale budu od příštího roku přecházet na nové studium. 
+Ozývám se po delší době, protože jsem teď měla divokých několik týdnů. Od posledního příspěvku se stalo až příliš věcí. Především ale budu od příštího roku přecházet na nové studium.
 <!--end_excerpt-->
 
-Protože si toho musím dost ještě sama v sobě zpracovat, tak se dnes jen podělím o jeden kratší text, který jsem napsala. Text je občas trošku ulítlý, ke konci má být snad trochu vtipný, místy lehce nadsazený, ale ne příliš a jen občas. Celé vyprávění o holubovi je opravdové, skutečně tam ležel, jak můžete vidět na fotkách pod textem. Jádro je pravdivé, takže by se dalo říct "Příběh na motivy skutečné události": 
+Protože si toho musím dost ještě sama v sobě zpracovat, tak se dnes jen podělím o jeden kratší text k tématu, který jsem napsala. Text je občas trošku ulítlý, ke konci má být snad trochu vtipný, místy lehce nadsazený, ale ne příliš a jen občas. Celé vyprávění o holubovi je opravdové, skutečně tam ležel, jak můžete vidět na fotkách pod textem. Jádro je pravdivé, takže by se dalo říct "Příběh na motivy skutečné události":
 
 
-
-** MOTIVAČNÍ HOLUB **
+## MOTIVAČNÍ HOLUB
 
 Když jsem nastoupila na matfyz, byla zrovna nejhlubší korona.  
 Poprvé fyzicky jsem byla ve škole na zkoušce v&nbsp;druhé půlce ledna. Než nás zavolali, že začínáme, čekala jsem v&nbsp;prvním patře malostranské budovy a&nbsp;koukala z&nbsp;okna.  
@@ -50,3 +48,4 @@ Zmíněná duha, focena z okna
 
 ![duha](/assets/img/holub/05.jpg)  
 Další "motivační duha"
+
