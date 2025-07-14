@@ -40,7 +40,7 @@ Jak to vypadá, když se opravdu zapomene, je vidět na fotce z 11.7., kde už j
 
 Kořen byl z tak nízké nádoby už dost zdeformovaný (fotka z 14.7., kdy jsem se konečně dostala k tomu ho přesadit):
 
-![1407](/assets/img/datle/D19a.jpg){:width="50%"} ![1407](/assets/img/datle/D19b.jpg){:width="50%"} 
+![1407](/assets/img/datle/D19a.jpg){:width="48%"} ![1407](/assets/img/datle/D19b.jpg){:width="48%"} 
 
 Taky jsem musela přesadit už několik zasazených, protože kořeny prorostly až na dno a tam se začaly "muchlat" (viz [minule](https://matcha1309.github.io/Projekt-datle/), 17.4.), jak vidíme na výřezu:  
 
@@ -67,7 +67,7 @@ Ale bez legrace - kdo chce datli, ať se [ozve](mailto:matcha1309@hotmail.com).
 Využívám této příležitosti ještě k tomu, abych přidala i update týkající se další "absolutní pecky". Někdo si možná pamatuje příspěvek ze začátku března o [barvení avokádem](https://matcha1309.github.io/Barvicky01/), kde jsem krom zjištění, že avokádo nebarví zeleně, zmínila i další věci, co se s avokádem dají dělat. Na jednom z obrázků jsem ukazovala pecku, která ve vodě začala klíčit.  
 Na následujících obrázcích můžeme vidět vývoj avokáda, které jsem pojmenovala Alejandro:  
 
-![avo2002](/assets/img/alejandro/avokado_01.jpg){:width="30%"} ![avo1504](/assets/img/alejandro/avokado02.jpg){:width="30%"} ![avoTODO](/assets/img/alejandro/avokado_03.jpg){:width="30%"} 
+![avo2002](/assets/img/alejandro/avokado_01.jpg){:width="30%"} ![avo1504](/assets/img/alejandro/avokado_02.jpg){:width="30%"} ![avoTODO](/assets/img/alejandro/avokado_03.jpg){:width="30%"} 
 
 První je fotka z 20.2., kdy jsem zkoumala těch deset zasazených pecek od silvestra a zachytila jsem první kořínky. Druhá je z 15.4., kdy už měl kořínek tak 15-20 cm (samozřejmě jsem si nevyfotila ani nezměřila, kdo jsem, abych dělala věci systematicky, že), byl ve vodě celý smotaný, začínal pouštět další kořeny a z pecky už rašil stromeček. Poslední fotka je současný stav, aktuální k 8.7., stromek už má 10 listů. Brzy budu asi muset začít řešit zastřihnutí. Držte Alejandrovi palce!  
 
