@@ -351,3 +351,17 @@
     }
   }
 }
+
+.strip {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+
+.strip-line {
+  text-align: center;
+  flex: 1 1 0;
+  width: 0;
+}
