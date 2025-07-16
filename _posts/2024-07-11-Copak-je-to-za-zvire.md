@@ -15,12 +15,14 @@ Představuji vám tímto Nuniho, huňatého Kočera!
 
 $$ \text{Kočer} = \text{Kocour} + \text{Kačer} $$
 
+{% strip %}
+![Kočer](/assets/img/zvire/kocer1.jpg)
+{% endstrip %}
 
-![Kočer](/assets/img/zvire/kocer1.jpg){:width="50%"}
-
-![kocer2](/assets/img/zvire/kocer2.jpg){:width="20%"}
-![kocer3](/assets/img/zvire/kocer3.jpg){:width="20%"}
-![kocer4](/assets/img/zvire/kocer4.jpg){:width="20%"}
-
+{% strip %}
+![kocer2](/assets/img/zvire/kocer2.jpg)
+![kocer3](/assets/img/zvire/kocer3.jpg)
+![kocer4](/assets/img/zvire/kocer4.jpg)
+{% endstrip %}
 
 Další obrázky mých výrobků můžete vidět v [Galerii](/galerie/).

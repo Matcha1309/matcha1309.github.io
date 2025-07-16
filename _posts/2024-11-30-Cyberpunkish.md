@@ -23,14 +23,17 @@ Celý vzhled doplnilo to, že (ačkoli nesnáším makeup nebo cokoli, co se pat
 
 Na následujících čtyřech obrázcích (za které děkuji [oficiálnímu fotografovi akce](https://www.facebook.com/mrknitam)) je vidět výsledek. 
 
-![CyberOutfit](/assets/img/cyberpunkish/cyber1.jpg){:width="100%"}
-![CyberOutfit2](/assets/img/cyberpunkish/cyber2.jpg){:width="100%"} 
-![CyberOutfit3](/assets/img/cyberpunkish/cyber3.jpg){:width="100%"} 
-![CysberLaser](/assets/img/cyberpunkish/cyber4.jpg){:width="100%"}
+![CyberOutfit](/assets/img/cyberpunkish/cyber1.jpg)
+
+![CyberOutfit2](/assets/img/cyberpunkish/cyber2.jpg)
+
+![CyberOutfit3](/assets/img/cyberpunkish/cyber3.jpg)
+
+![CysberLaser](/assets/img/cyberpunkish/cyber4.jpg)
 
 Poslední detai: Protože moje peněženka s brýlatými kočičkami nebyla dostatečně cyberpunková, tak jsem si ušila z koženky peněženku na karty, na kterou jsem našila jako knoflíky ty samé růžové knoflíky, ze kterých jsem vyrobila šperky a měla jsem jeden i jako knoflík k sukni. 
 
-![Penezenka](/assets/img/cyberpunkish/cyber5.jpg){:width="100%"}
+![Penezenka](/assets/img/cyberpunkish/cyber5.jpg)
 
 Tento příspěvek možná bude mít někdy druhý díl, protože kromě skládání svého kostýmu jsem i šila součásti druhého kostýmu, tentokrát pánského. Ale o tom až někdy jindy. 
 
