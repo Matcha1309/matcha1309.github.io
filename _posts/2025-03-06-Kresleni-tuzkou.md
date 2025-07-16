@@ -13,9 +13,7 @@ images:
 ---
 
 <!--begin_excerpt-->
-
 Občas je potřeba vystřídat média. A přestože Wacom je Wacom, tak jsem si řekla, že si zkusím zas pro změnu kreslení tužkou. Navíc jsem si na tužky uháčkovala i nový penálek, tak se musím pochlubit i s ním. Pojďme podívat, jak se obrázky vyvinou v průběhu jednoho víkendu!
-
 <!--end_excerpt-->
 
 ![penal_00](/assets/img/kresleni_trad/penal_tuzka_00.jpg)
