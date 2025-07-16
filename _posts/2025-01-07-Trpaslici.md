@@ -184,7 +184,7 @@ A nyní následuje průvod:
 ![trp](/assets/img/wroclaw/95.jpg)
 ![trp](/assets/img/wroclaw/96.jpg)
 <!-- br -->
-{% edstrip %}
+{% endstrip %}
 
 Trpaslíci jsou částečně v náhodném pořadí, částečně jsou v pořadí, jak jsem je fotila, částečně jak jsem je hledala na mapě a částečně, jak jsem je stahovala z mobilu. 
 
