@@ -34,11 +34,13 @@ Když rozstříháme všechnu přízi po celém obvodu, protáhneme mezi kartono
 ![vel_kure_06](/assets/img/Velikonoce25/kure_vel_05.jpg)
 {% endstrip %}
 
+
 {% strip %}
 ![vel_kure_07](/assets/img/Velikonoce25/kure_vel_06.jpg)
 ![vel_kure_08](/assets/img/Velikonoce25/kure_vel_08.jpg)
 <br>
 {% endstrip %}
+
 
 A je to! Dozdobíme skořápkami oloupanými z vařených kraslic (protože je škoda je vyhodit, když už se s tím člověk maluje) a máme pěkné velikonoční fluffy!
 
