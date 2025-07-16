@@ -81,10 +81,7 @@ Krom všech těch, které můžete vidět tady (skupině ceterů se říká Gang
 
 Ceteří gang si tvoří i hromadné obydlí, tzv. ceterárium. Můžete vidět, že ceterária připomínají cetery samotné: 
 
-{% strip %}
-![ceteri](/assets/img/ceteri/ceterarium01.jpg)
-![ceteri](/assets/img/ceteri/ceterarium03.jpg)
-{% endstrip %}
+![ceteri](/assets/img/ceteri/ceterarium01.jpg){:width="62%"} ![ceteri](/assets/img/ceteri/ceterarium03.jpg){:width="35%"}
 
 Takže pokud někdy uvidíte ve volné přírodě cetera, dokonale nedokonalého, vzpomeňte si, že možná hledá svůj gang. 
 

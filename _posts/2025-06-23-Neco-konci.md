@@ -37,21 +37,17 @@ Takže doufám, že na teologické fakultě mají taky protiholubí sítě – a
 ![holub](/assets/img/holub/01.jpg) Motivační holubi "naživo", pohled z prvního patra
 {% endstrip %}
 
-
 {% strip %}
 ![holub](/assets/img/holub/02.jpg) Holubi, pohled zespoda z SW1
 {% endstrip %}
-
 
 {% strip %}
 ![holub](/assets/img/holub/03.jpg) Důlek po novějším holubovi
 {% endstrip %}
 
-
 {% strip %}
 ![duha](/assets/img/holub/04.jpg) Zmíněná duha, focena z okna 
 {% endstrip %}
-
 
 {% strip %}
 ![duha](/assets/img/holub/05.jpg) Další "motivační duha"
