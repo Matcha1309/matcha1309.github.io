@@ -44,27 +44,30 @@ A nyní následuje průvod:
 ![trp](/assets/img/wroclaw/02.jpg)
 ![trp](/assets/img/wroclaw/03.jpg)
 ![trp](/assets/img/wroclaw/04.jpg)
-![trp](/assets/img/wroclaw/05.jpg)
 {% endstrip %}
 
 {% strip %}
+![trp](/assets/img/wroclaw/05.jpg)
 ![trp](/assets/img/wroclaw/06.jpg)
 ![trp](/assets/img/wroclaw/07.jpg)
 ![trp](/assets/img/wroclaw/08-09.jpg)
-![trp](/assets/img/wroclaw/10.jpg)
-![trp](/assets/img/wroclaw/11.jpg)
 {% endstrip %}
 
 {% strip %}
+![trp](/assets/img/wroclaw/10.jpg)
+![trp](/assets/img/wroclaw/11.jpg)
 ![trp](/assets/img/wroclaw/12-13.jpg)
 ![trp](/assets/img/wroclaw/14-15.jpg)
+{% endstrip %}
+
+{% strip %}
 ![trp](/assets/img/wroclaw/16.jpg)
 ![trp](/assets/img/wroclaw/17.jpg)
 ![trp](/assets/img/wroclaw/18.jpg)
+![trp](/assets/img/wroclaw/19.jpg)
 {% endstrip %}
 
 {% strip %}
-![trp](/assets/img/wroclaw/19.jpg)
 ![trp](/assets/img/wroclaw/20.jpg)
 ![trp](/assets/img/wroclaw/21.jpg)
 ![trp](/assets/img/wroclaw/22.jpg)
@@ -76,27 +79,30 @@ A nyní následuje průvod:
 ![trp](/assets/img/wroclaw/25.jpg)
 ![trp](/assets/img/wroclaw/26.jpg)
 ![trp](/assets/img/wroclaw/27.jpg)
-![trp](/assets/img/wroclaw/28.jpg)
 {% endstrip %}
 
 {% strip %}
+![trp](/assets/img/wroclaw/28.jpg)
 ![trp](/assets/img/wroclaw/29.jpg)
 ![trp](/assets/img/wroclaw/30.jpg)
 ![trp](/assets/img/wroclaw/31.jpg)
-![trp](/assets/img/wroclaw/32.jpg)
-![trp](/assets/img/wroclaw/33.jpg)
 {% endstrip %}
 
 {% strip %}
+![trp](/assets/img/wroclaw/32.jpg)
+![trp](/assets/img/wroclaw/33.jpg)
 ![trp](/assets/img/wroclaw/34.jpg)
 ![trp](/assets/img/wroclaw/35.jpg)
+{% endstrip %}
+
+{% strip %}
 ![trp](/assets/img/wroclaw/36.jpg)
 ![trp](/assets/img/wroclaw/37-38-39.jpg)
 ![trp](/assets/img/wroclaw/40.jpg)
+![trp](/assets/img/wroclaw/41.jpg)
 {% endstrip %}
 
 {% strip %}
-![trp](/assets/img/wroclaw/41.jpg)
 ![trp](/assets/img/wroclaw/42-43.jpg)
 ![trp](/assets/img/wroclaw/44.jpg)
 ![trp](/assets/img/wroclaw/45.jpg)
@@ -108,27 +114,30 @@ A nyní následuje průvod:
 ![trp](/assets/img/wroclaw/48.jpg)
 ![trp](/assets/img/wroclaw/49-50.jpg)
 ![trp](/assets/img/wroclaw/51.jpg)
-![trp](/assets/img/wroclaw/52.jpg)
 {% endstrip %}
 
 {% strip %}
+![trp](/assets/img/wroclaw/52.jpg)
 ![trp](/assets/img/wroclaw/53.jpg)
 ![trp](/assets/img/wroclaw/54-55.jpg)
 ![trp](/assets/img/wroclaw/56.jpg)
-![trp](/assets/img/wroclaw/57.jpg)
-![trp](/assets/img/wroclaw/58.jpg)
 {% endstrip %}
 
 {% strip %}
+![trp](/assets/img/wroclaw/57.jpg)
+![trp](/assets/img/wroclaw/58.jpg)
 ![trp](/assets/img/wroclaw/59.jpg)
 ![trp](/assets/img/wroclaw/60.jpg)
+{% endstrip %}
+
+{% strip %}
 ![trp](/assets/img/wroclaw/61.jpg)
 ![trp](/assets/img/wroclaw/62.jpg)
 ![trp](/assets/img/wroclaw/63-64.jpg)
+![trp](/assets/img/wroclaw/65-66.jpg)
 {% endstrip %}
 
 {% strip %}
-![trp](/assets/img/wroclaw/65-66.jpg)
 ![trp](/assets/img/wroclaw/67.jpg)
 ![trp](/assets/img/wroclaw/68.jpg)
 ![trp](/assets/img/wroclaw/69.jpg)
@@ -140,27 +149,30 @@ A nyní následuje průvod:
 ![trp](/assets/img/wroclaw/72.jpg)
 ![trp](/assets/img/wroclaw/73.jpg)
 ![trp](/assets/img/wroclaw/74.jpg)
-![trp](/assets/img/wroclaw/75.jpg)
 {% endstrip %}
 
 {% strip %}
+![trp](/assets/img/wroclaw/75.jpg)
 ![trp](/assets/img/wroclaw/76-77-78.jpg)
 ![trp](/assets/img/wroclaw/79.jpg)
 ![trp](/assets/img/wroclaw/80.jpg)
-![trp](/assets/img/wroclaw/81.jpg)
-![trp](/assets/img/wroclaw/82.jpg)
 {% endstrip %}
 
 {% strip %}
+![trp](/assets/img/wroclaw/81.jpg)
+![trp](/assets/img/wroclaw/82.jpg)
 ![trp](/assets/img/wroclaw/83.jpg)
 ![trp](/assets/img/wroclaw/84.jpg)
+{% endstrip %}
+
+{% strip %}
 ![trp](/assets/img/wroclaw/85.jpg)
 ![trp](/assets/img/wroclaw/86.jpg)
 ![trp](/assets/img/wroclaw/87.jpg)
+![trp](/assets/img/wroclaw/88.jpg)
 {% endstrip %}
 
 {% strip %}
-![trp](/assets/img/wroclaw/88.jpg)
 ![trp](/assets/img/wroclaw/89.jpg)
 ![trp](/assets/img/wroclaw/90.jpg)
 ![trp](/assets/img/wroclaw/92.jpg)
@@ -171,7 +183,6 @@ A nyní následuje průvod:
 ![trp](/assets/img/wroclaw/94.jpg)
 ![trp](/assets/img/wroclaw/95.jpg)
 ![trp](/assets/img/wroclaw/96.jpg)
-<!-- br -->
 <!-- br -->
 {% edstrip %}
 
