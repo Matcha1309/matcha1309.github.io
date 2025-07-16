@@ -26,10 +26,11 @@ images:
   - "/assets/img/hravy/PexesoStack.jpg"
   - "/assets/img/hravy/RocketGame.png"
 ---
-
+<!--begin_excerpt-->
 Po dlouhé pauze se zase hlásím.
 Stalo se léto, stal se život, stalo se studium, ale už zase mám něco, s čím se můžu pochlubit.
 Za poslední měsíc se odehrály dvě akce, ke kterým jsem přispívala, k jedné pouze minimálně, druhou jsem spoluorganizovala.
+<!--end_excerpt-->
 
 Jedna byla šifrovačka na soustředění pro středoškoláky. Šifra měla být jednoduchá, odpočinková, ale především, obrázková.
 A tak jsem opět vytáhla Wacoma a kreslila jsem.

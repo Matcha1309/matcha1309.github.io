@@ -1,7 +1,6 @@
 ---
 title: "Něco končí, něco začíná"
 ---
-
 <!--begin_excerpt-->
 Ozývám se po delší době, protože jsem teď měla divokých několik týdnů. Od posledního příspěvku se stalo až příliš věcí. Především ale budu od příštího roku přecházet na nové studium.
 <!--end_excerpt-->

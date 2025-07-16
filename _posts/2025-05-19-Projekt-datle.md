@@ -7,7 +7,6 @@ images:
   - "/assets/img/datle/D11.jpg"
   
 ---
-
 <!--begin_excerpt-->
 Koncem prosince jsem zkusila takový experiment - zasadit pecky z kandovaných datlí. A co vyrostlo? Odpověď: něco. 
 <!--end_excerpt-->

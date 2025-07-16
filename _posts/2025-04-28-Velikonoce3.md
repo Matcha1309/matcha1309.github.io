@@ -8,7 +8,6 @@ images:
 
 
 ---
-
 <!--begin_excerpt-->
 V posledním velikonočním příspěvku se podíváme na kuřátka. Ale protože ta opravdová se možná ještě nevylíhla, tak si budeme muset vystačit s bambulí z příze (protože od druhého dne jsou kuřata ještě dva týdny stejně prostě fluff - aspoň na první pohled). 
 

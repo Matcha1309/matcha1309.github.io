@@ -6,7 +6,9 @@ images:
   - "/assets/img/zvire/kocer3.jpg"
   - "/assets/img/zvire/kocer4.jpg"
 ---
+<!--begin_excerpt-->
 Je to kocour? Je to kačer? Je to ještě něco jiného?
+<!--end_excerpt-->
 
 Pro jednou jsem se zase dostala k něčemu háčkovanému z žinylky, konečně zas pro jednou zvířátko.
 A není úplně jedno, jaké zvířátko by to mělo být? Je roztomilé, je měkoučké, je "plyšové".

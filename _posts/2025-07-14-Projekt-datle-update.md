@@ -9,7 +9,6 @@ images:
   - "/assets/img/alejandro/avokado_04.jpg"
   - "/assets/img/datle/D16.jpg"
 ---
-
 <!--begin_excerpt-->
 Jsem tu opět s Projektem datle, tentokrát jen krátký update, co se od minula změnilo.
 <!--end_excerpt-->

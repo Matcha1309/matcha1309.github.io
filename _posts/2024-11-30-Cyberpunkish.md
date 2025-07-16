@@ -7,10 +7,12 @@ images:
   - "/assets/img/cyberpunkish/cyber4.jpg"  
   - "/assets/img/cyberpunkish/cyber5.jpg"  
 ---
+<!--begin_excerpt-->
 Opět vyplouvám z hlubin neexistence, abych se něčím pochlubila. Před časem jsem navštívila jednu takovou akci, byla to párty s prvky únikovky od TheChamber s názvem [ChamCorp](https://thechamber.cz/chamcorp/). Jednalo se o hru s prvky únikovky a adventury, odehrávající se v cyberpunkové (a lehce antiutopické) budoucnosti v podzemním městě, kde se začali ztrácet lidé a bylo potřeba vypátrat, kdo za tím je. 
 Celá hra měla opravdu pěknou atmosféru, jednak díky prostředí, jednak díky propracovanému příběhu, jednak díky tomu, že bylo doporučeno přijít v kostýmu nebo aspoň s vyladěnými doplňky. 
 
 A tak jsem se dala do ladění outfitu. 
+<!--end_excerpt-->
 
 Základní myšlenka byla dát dohromady něco, co bude bláznivě barevné, moderní a nebudu to muset šít celé od základu. 
 Začala jsem tím, že jsem dala dohromady zářivě růžovo-fialové legíny (vhodné buď do 90. let dvacátého nebo i jednadvacátého století) a světlé tričko s výstřihem a dlouhými rukávy. Na to přišla pseudokožená vesta z náhodného sekáče. K tomu jsem si ušila z černého tylu (resp. našila jsem ji na černé odnímatelné kapsy). Tohle doplnily nové boty (které jsem si stejně musela koupit). 

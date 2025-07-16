@@ -1,7 +1,9 @@
 ---
 title: "Zuffonek se hlásí znovu!"
 ---
+<!--begin_excerpt-->
 Léto neustupuje, ale Zuffonek taky ne! 
+<!--end_excerpt-->
 
 A proto dnes přichází hned ve dvojité síle jako reakce na vedro posledních dní. 
 

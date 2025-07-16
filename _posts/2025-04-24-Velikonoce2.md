@@ -21,7 +21,6 @@ images:
 ---
 
 <!--begin_excerpt-->
-
 Když byly v pondělí ty Velikonoce, vrátím se k jedné velikonoční tradici - malování vajíček. 
 <!--end_excerpt-->
 

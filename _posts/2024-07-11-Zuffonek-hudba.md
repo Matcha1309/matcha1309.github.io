@@ -6,10 +6,10 @@ title: "Znovu Zuffonek!"
 Máme tu další díl Zuffonka! 
 
 Tentokrát ale bude vyžadovat kousek kulturního kontextu. V minulém století vznikla spousta písniček se skvělou hudbou. A taky vznikala spousta výborných textů. A překvapivě se spousta zahraniční hudby líbila i některým Česky píšícím textařům - co bychom si nepůjčili hudbu a nevylepšili jí text? 
+<!--end_excerpt-->
 
 ![z_hudba](/assets/img/zuffonek/z_03.png)
 
-<!--end_excerpt-->
 
 Pro kontext pár porovnání (jen málo příkladů za všechny):
 

@@ -28,12 +28,12 @@ images:
 ---
 
 <!--begin_excerpt-->
-
 Přibližně před dvěma lety jsem "objevila formu života", stvoření, co si říkají Ceteři. A háčkovala jsem a háčkovala jsem. 
 
 ![ceteri](/assets/img/ceteri/group.jpg)
-
 <!--end_excerpt-->
+
+
 Ceter (z latin. et cetera) může znamenat "ten další", "ten jiný" nebo "a ještě jeden". A skutečně, kde je jeden, přibudou brzo další. 
 Ceteři jsou každý jiný, ale všichni tak trochu stejní. Jsou nedokonalí, jejich barvy neladí, občas jim chybí nebo přebývá končetina, každé oko mají jinak velké, ale přes svou nedokonalost mají všichni srdce na pravém místě. 
 

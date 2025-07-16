@@ -1,7 +1,9 @@
 ---
 title: "Zuffonek nám choří!"
 ---
+<!--begin_excerpt-->
 Taky tak nesnášíte, když už něco jako podruhé za poslední měsíc ležíte celý víkend s nějakou "smrtelnou" chorobou? 
+<!--end_excerpt-->
 
 Já taky. 
 
