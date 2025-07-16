@@ -39,7 +39,7 @@ Takže doufám, že na teologické fakultě mají taky protiholubí sítě – a
 
 
 {% strip %}
-![holub](/assets/img/holub/02.jpg)  Holubi, pohled zespoda z SW1
+![holub](/assets/img/holub/02.jpg) Holubi, pohled zespoda z SW1
 {% endstrip %}
 
 

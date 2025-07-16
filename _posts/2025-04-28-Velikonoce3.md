@@ -38,7 +38,7 @@ Když rozstříháme všechnu přízi po celém obvodu, protáhneme mezi kartono
 {% strip %}
 ![vel_kure_07](/assets/img/Velikonoce25/kure_vel_06.jpg)
 ![vel_kure_08](/assets/img/Velikonoce25/kure_vel_08.jpg)
-<br>
+<!-- br -->
 {% endstrip %}
 
 

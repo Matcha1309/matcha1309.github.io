@@ -36,12 +36,28 @@ Pak už je to jen o vzoru a provedení. Hodí se si vajíčko prvně rozdělit, 
 
 Tady pár ukázek, co jsem malovala letos já: 
 
-![vel04](/assets/img/Velikonoce25/vel04.jpg){:width="32%"} ![vel04a](/assets/img/Velikonoce25/vel04a.jpg){:width="32%"} ![vel05](/assets/img/Velikonoce25/vel05.jpg){:width="32%"} 
+{% strip %}
+![vel04](/assets/img/Velikonoce25/vel04.jpg)
+![vel04a](/assets/img/Velikonoce25/vel04a.jpg)
+![vel05](/assets/img/Velikonoce25/vel05.jpg)
+{% endstrip %}
 
-![vel05a](/assets/img/Velikonoce25/vel05a.jpg){:width="32%"} ![vel06](/assets/img/Velikonoce25/vel06.jpg){:width="32%"} ![vel06a](/assets/img/Velikonoce25/vel06a.jpg){:width="32%"} 
+{% strip %}
+![vel05a](/assets/img/Velikonoce25/vel05a.jpg)
+![vel06](/assets/img/Velikonoce25/vel06.jpg)
+![vel06a](/assets/img/Velikonoce25/vel06a.jpg)
+{% endstrip %} 
 
-![vel07](/assets/img/Velikonoce25/vel07.jpg){:width="32%"} ![vel08](/assets/img/Velikonoce25/vel08.jpg){:width="32%"} ![vel11](/assets/img/Velikonoce25/vel11.jpg){:width="32%"} 
+{% strip %}
+![vel07](/assets/img/Velikonoce25/vel07.jpg)
+![vel08](/assets/img/Velikonoce25/vel08.jpg)
+![vel11](/assets/img/Velikonoce25/vel11.jpg)
+{% endstrip %}
 
-![vel09](/assets/img/Velikonoce25/vel09.jpg){:width="32%"} ![vel10](/assets/img/Velikonoce25/vel10.jpg){:width="32%"} !
+{% strip %}
+![vel09](/assets/img/Velikonoce25/vel09.jpg)
+![vel10](/assets/img/Velikonoce25/vel10.jpg)
+<!-- br -->
+{% endstrip %}
 
 ![velikonoce01](/assets/img/Velikonoce25/vel01.jpg)
