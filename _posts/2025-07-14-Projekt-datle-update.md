@@ -70,9 +70,9 @@ Využívám této příležitosti ještě k tomu, abych přidala i update týkaj
 Na následujících obrázcích můžeme vidět vývoj avokáda, které jsem pojmenovala Alejandro:  
 
 {% strip %}
-![avo2002](/assets/img/alejandro/avokado_01.jpg) Fotka 1
-![avo1504](/assets/img/alejandro/avokado_02.jpg) Fotka 2
-![avoTODO](/assets/img/alejandro/avokado_03.jpg) Fotka 3
+![avo2002](/assets/img/alejandro/avokado_01.jpg) 20.2.
+![avo1504](/assets/img/alejandro/avokado_02.jpg) 15.4.
+![avoTODO](/assets/img/alejandro/avokado_03.jpg) 8.7.
 {% endstrip %}
 
 

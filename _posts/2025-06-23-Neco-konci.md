@@ -33,19 +33,23 @@ Když jsem tohle všechno vyprávěla spolubydlící, podívala se z&nbsp;okna a
 Takže doufám, že na teologické fakultě mají taky protiholubí sítě – a&nbsp;nesundávají je tak často.  
 
 
+{% strip %}
+![holub](/assets/img/holub/01.jpg) Motivační holubi "naživo", pohled z prvního patra
+{% endstrip %}
 
-![holub](/assets/img/holub/01.jpg)  
-Motivační holubi "naživo", pohled z prvního patra
+{% strip %}
+![holub](/assets/img/holub/02.jpg) Holubi, pohled zespoda z SW1
+{% endstrip %}
 
-![holub](/assets/img/holub/02.jpg)  
-Holubi, pohled zespoda z SW1
+{% strip %}
+![holub](/assets/img/holub/03.jpg) Důlek po novějším holubovi
+{% endstrip %}
 
-![holub](/assets/img/holub/03.jpg)  
-Důlek po novějším holubovi
+{% strip %}
+![duha](/assets/img/holub/04.jpg) Zmíněná duha, focena z okna 
+{% endstrip %}
 
-![duha](/assets/img/holub/04.jpg)  
-Zmíněná duha, focena z okna 
-
-![duha](/assets/img/holub/05.jpg)  
-Další "motivační duha"
+{% strip %}
+![duha](/assets/img/holub/05.jpg) Další "motivační duha"
+{% endstrip %}
 
