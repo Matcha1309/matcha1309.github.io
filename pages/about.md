@@ -3,7 +3,7 @@ layout: page
 permalink: /about/
 ---
 
-## O mě
+## O mNě
 Ahoj, jsem Klárka.
 
 Ještě zatím studuji informatiku na matfyzu, ale už mi to dlouho nevydrží. Kromě toho dělám asi tak všechno, co by koho mohlo napadnout. Někoho honí mlsná, někoho tvořivá. Já většinou patřím do obou kategorií. Klubíčka, korálky, FIMO, pastelky, tužky, látky, to všechno a spoustu dalšího nejen že nezdravě hromadím, ale hojně používám k háčkování, pletení, navlékání, modelování, kreslení, šití a spoustě dalšího tvoření. Mimo to bydlím v pokoji plném kytek (často vlastní výpěstky) a knížek (včetně několika opravdu parádních kousků), takže mám co dělat, abych se tam sama vešla. Stejně tak se (amatérsky) zajímám o historii, zejména o "drby", stejně tak jako o dějiny odívání. Ještě taky ráda zpívám, poslochám hudbu (sluchátka 24/7!), píšu a dělám vlastně cokoli, pro co se zrovna nadchnu.
