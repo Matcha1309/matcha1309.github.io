@@ -23,13 +23,13 @@ Nedávno jsem se vypravila do Krakova. A sem mám připravenou jednu krátkou hr
 Před časem jsem si na nějakém trhu nebo kde koupila pětici 3D tištěných dráčků. Čtyři z nich jsem do Krakova vzala s sebou do Krakova, pátý letěl na delší výlet. Dráčci se v Krakově cítili samozřejmě jako doma - jak jinak. A každý si tam vybral jedno místo, které ho obzvlášť zaujalo. 
 
 {% strip %}
-![bily](/assets/img/krakov/01_bily.jpg)
-![zeleny](/assets/img/krakov/02_zeleny.jpg)
+![bily](/assets/img/krakov/01_bilya.jpg)
+![zeleny](/assets/img/krakov/02_zelenya.jpg)
 {% endstrip %}
 
 {% strip %}
-![bily](/assets/img/krakov/03_cerveny.jpg)
-![bily](/assets/img/krakov/04_fialovy.jpg)
+![bily](/assets/img/krakov/03_cervenya.jpg)
+![bily](/assets/img/krakov/04_fialovya.jpg)
 {% endstrip %}
 
 A teď už ke hře: Každá fotografie dráčka byla pořízena na jiném místě v Krakově. Hra spočívá v tom, že je potřeba zkusit (například pomocí streetview nebo jiných nástrojů) poznat, kde se mohlo dráčkům takhle zalíbit. Pokud by někdo nějaké místo poznal, [pošlete mi své tipy](matcha1309@hotmail.com?subject=Draci), nejlepší dostane tématický dračí dárek. 
@@ -73,10 +73,12 @@ Travers Heath Archambault (1869 - 1913?) byl čtvrtý syn třetího hraběte z&n
 Profesor Barnabas J. Friday (1864 - 1913?) byl vědcem - biologem, chemikem, fyzikem, astronomem, lékařem, vynálezcem, filosofem a&nbsp;amatérským geologem. O&nbsp;jeho raném životě není nic známo, stejně jako není jisté, jak znělo jeho celé jméno. První zmínky se objevují v roce 1890&nbsp;stč, kdy se seznamuje s&nbsp;L.&nbsp;S.&nbsp;Traskem a&nbsp;T.&nbsp;H.&nbsp;Archambaultem, kteří si tohoto neurotického a&nbsp;věčně unaveného vědce vzali pod svá křídla. Podle dopisu, který L.&nbsp;S.&nbsp;Trask odeslal T. H. Archambaultovi v&nbsp;roce 1891&nbsp;stč, se jednalo o&nbsp;"roztomilého blázna, tak geniálního, až z&nbsp;něj jde strach", kterého "nesmí nikde ztratit" (obojí citace z&nbsp;inv.&nbsp;č.&nbsp;ATROD-21007/19). Po profesoru Fridayovi se zachoval jediný osobní dokument, a&nbsp;to jmenovací listina z Univerzity v&nbsp;Trochtenburgu, kde se uděluje Barnabasovi&nbsp;J.&nbsp;Fridayovi titul profesora (inv.&nbsp;č.&nbsp;ATROP-00102). V&nbsp;Archivu jsou uloženy zejména jeho poznámky a&nbsp;zápisky z&nbsp;cest, včetně několika nevydaných vědeckých pojednání. U&nbsp;většiny poznámek ale není uvedeno datum, takže o&nbsp;celkovém obraze jeho práce a&nbsp;jejím vývoji nemáme ucelenou představu. Jeho stopa opět mizí roku 1913&nbsp;stč. 
 
 {% strip %}
+<!-- br -->
 ![foto](/assets/img/archiv/ATROF-00054-16.jpg) Zleva Archambault, Trask, Friday, cca rok 1899 (ATROF-00054/16)
+<!-- br -->
 {% endstrip %}
 
-###Ukázka
+### Ukázka
 Zde můžeme vidět nově zdigitalizovanou část z&nbsp;tohoto velmi rozsáhlého fondu, jeden ze zápisů Barnabase&nbsp;J.&nbsp;Fridaye ze dne 31.7., rok neznámý (inv.&nbsp;č.&nbsp;ATROZ-00289/1-3): 
 
 {% strip %}
