@@ -74,7 +74,7 @@ Profesor Barnabas J. Friday (1864 - 1913?) byl vědcem - biologem, chemikem, fyz
 
 {% strip %}
 <!-- br -->
-![foto](/assets/img/archiv/ATROF-00054-16.jpg) Zleva Archambault, Trask, Friday, cca rok 1899 (ATROF-00054/16)
+![foto](/assets/img/archiv/ATROF-00054-16.jpg) Zleva Archambault, Trask, Friday, cca rok 1899  (ATROF-00054/16)
 <!-- br -->
 {% endstrip %}
 
