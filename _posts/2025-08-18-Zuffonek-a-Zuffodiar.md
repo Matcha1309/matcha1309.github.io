@@ -1,5 +1,10 @@
 ---
 title: "Zuffonek pracuje s lidmi - a ještě Zuffodiář"
+images:
+  - "/assets/img/zuffonek/diar/05.jpg"
+  - "/assets/img/zuffonek/diar/06.jpg"
+  - "/assets/img/zuffonek/diar/02.jpg"
+
 ---
 <!--begin_excerpt-->
 Dneska na úvod jeden Zuffonek - tentokrát o tom, jak náročné je pracovat s lidmi. Podle skutečné události. 
