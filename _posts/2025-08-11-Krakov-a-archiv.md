@@ -32,7 +32,7 @@ Před časem jsem si na nějakém trhu nebo kde koupila pětici 3D tištěných 
 ![bily](/assets/img/krakov/04_fialovya.jpg)
 {% endstrip %}
 
-A teď už ke hře: Každá fotografie dráčka byla pořízena na jiném místě v Krakově. Hra spočívá v tom, že je potřeba zkusit (například pomocí streetview nebo jiných nástrojů) poznat, kde se mohlo dráčkům takhle zalíbit. Pokud by někdo nějaké místo poznal, [pošlete mi své tipy](matcha1309@hotmail.com?subject=Draci), nejlepší dostane tématický dračí dárek. 
+A teď už ke hře: Každá fotografie dráčka byla pořízena na jiném místě v Krakově. Hra spočívá v tom, že je potřeba zkusit (například pomocí streetview nebo jiných nástrojů) poznat, kde se mohlo dráčkům takhle zalíbit. Pokud by někdo nějaké místo poznal, [pošlete mi své tipy](mailto:matcha1309@hotmail.com?subject=Draci), nejlepší dostane tématický dračí dárek. 
 
 Tolik (prozatím) ke Krakovu jako takovému, ale určitě se k němu ještě vrátíme. 
   
