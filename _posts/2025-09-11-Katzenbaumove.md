@@ -7,8 +7,7 @@ images:
   - "/assets/img/katzenbaum/Karl_a.jpg"
 
   - "/assets/img/katzenbaum/katzen_o.jpg"
-  - "/assets/img/sklenice/05_noc.jpg"
-  - "/assets/img/sklenice/07_noc_tma.jpg"
+
 
 
 
