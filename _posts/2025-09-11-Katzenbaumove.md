@@ -7,8 +7,7 @@ images:
   - "/assets/img/katzenbaum/Karl_a.jpg"
 
   - "/assets/img/katzenbaum/katzen_o.jpg"
-  - "/assets/img/sklenice/05_noc.jpg"
-  - "/assets/img/sklenice/07_noc_tma.jpg"
+
 
 
 
@@ -46,7 +45,7 @@ Heinrichovou pravou rukou je jeho účetní Wolfgang, což je velmi nevhodné jm
 ![Wolfgang](/assets/img/katzenbaum/Wolfgang.jpg)
 {% endstrip %}
 
-Je-li Wolfgang lotrem po levici, tím po pravici je určitě Friedrich. Zatímco Heinrich je srdcem operací a Wolfgang jejich mozkem, Friedrich je hora svalů, bez které mozek se srdcem skončí bezmocně na podlaze. Dělá tu nejšpinavější manuální práci, a to hrdě vlastníma prackama - je občas si na to vezme nějaké ty "kočičí hračky". 
+Je-li Wolfgang lotrem po pravici, tím po levici je určitě Friedrich. Zatímco Heinrich je srdcem operací a Wolfgang jejich mozkem, Friedrich je hora svalů, bez které mozek se srdcem skončí bezmocně na podlaze. Dělá tu nejšpinavější manuální práci, a to hrdě vlastníma prackama - je občas si na to vezme nějaké ty "kočičí hračky". 
 
 {% strip %}
 ![F](/assets/img/katzenbaum/F_01.jpg)
