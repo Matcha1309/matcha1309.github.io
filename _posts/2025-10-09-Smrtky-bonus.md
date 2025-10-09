@@ -1,7 +1,7 @@
 ---
 title: "Smrtky - bonus"
 images:
-  - "/assets/img/hrbitovy/bonus.jpg"
+  - "/assets/img/hrbitovy/bonus_a.jpg"
 
 ---
 
