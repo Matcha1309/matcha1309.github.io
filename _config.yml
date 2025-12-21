@@ -17,6 +17,8 @@ navigation:
     url: /about/
   - title: Galerie
     url: /galerie/
+  - title: Zuffonek
+    url: /comics/
   - title: RSS/Atom
     url: /feed.xml
 
