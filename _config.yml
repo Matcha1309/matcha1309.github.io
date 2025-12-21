@@ -39,14 +39,26 @@ feed:
   path: feed.xml
 
 
+collections:
+  comics:
+    output: true
+    permalink: /comics/:title/
+
+
+
+
 # Front Matter Defaults
 defaults:
   # Posts defaults
   - scope:
-      path: "_posts"
-      type: posts
+      type: "posts"
     values:
-      layout: post
+      layout: "post"
+  - scope:
+      type: "comics"
+    values:
+      layout: "comics-page"
+
 
 # Liquid
 liquid:
