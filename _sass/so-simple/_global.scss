@@ -2,6 +2,9 @@
    Site-wide
    ========================================================================== */
 
+@use 'sass:color';
+
+
 .skip-links {
   ul {
     margin: 0;
@@ -388,6 +391,11 @@
     text-align: center;
     border: 1px solid;
     border-radius: $border-radius;
+
+    &:hover {
+      background-color: color.adjust(white, $lightness: -10%);
+    }
+
   }
 
 }
