@@ -11,7 +11,7 @@ skin: "/assets/css/skins/default.css"
 locale: cs-CZ
 
 navigation:
-  - title: Home
+  - title: Domů
     url: /
   - title: O mně
     url: /about/
