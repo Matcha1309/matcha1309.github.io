@@ -1,6 +1,8 @@
 //////////////////////////////
 // Import Parser Pieces
 //////////////////////////////
+@use 'sass:list';
+
 @import "parsers/query";
 @import "parsers/single";
 @import "parsers/double";
@@ -41,7 +43,7 @@ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
 
 
     // Test to see if it's a comma-separated list
-    $or-list: if(list-separator($query) == 'comma', true, false);
+    $or-list: if(list.separator($query) == 'comma', true, false);
 
 
     @if ($or-list == false and breakpoint-get('legacy syntax') == false) {
