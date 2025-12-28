@@ -50,7 +50,7 @@ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
       $query-string: breakpoint-parse($query);
     }
     @else {
-      $length: length($query);
+      $length: list.length($query);
 
       $last: nth($query, $length);
       $query-fallback: breakpoint-no-query($last);
@@ -81,7 +81,7 @@ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
         'context holder': $private-breakpoint-context-holder,
         'query count': $private-breakpoint-query-count
     );
-    @if length($contexts) > 0 and nth($contexts, 1) != false {
+    @if list.length($contexts) > 0 and nth($contexts, 1) != false {
       @if $query-fallback != false {
         $context-setter: private-breakpoint-set-context('no-query', $query-fallback);
       }
@@ -133,12 +133,12 @@ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
   $first: true;
 
   @each $feature in $query-holder {
-    $length: length($feature);
+    $length: list.length($feature);
 
     // Parse a single feature
     @if ($length == 1) {
       // Feature is currently a list, grab the actual value
-      $feature: nth($feature, 1);
+      $feature: list.nth($feature, 1);
 
       // Media Type must by convention be the first item, so it's safe to flat override $query-print, which right now should only be the default media type
       @if (breakpoint-is-media($feature)) {
