@@ -1,0 +1,11 @@
+<div class="comic-nav">
+	{%- assign first_comic = site.comics.first -%}
+	{%- assign prev_comic = page.previous -%}
+	{%- assign next_comic = page.next -%}
+	{%- assign last_comic = site.comics.last -%}
+	<a href="{{- first_comic.url -}}" class="nav-button first-comic" title="První" aria-label="První">|&lt;</a>
+	<a href="{{- prev_comic.url | default: first_comic.url -}}" class="nav-button prev-comic" title="Předchozí" aria-label="Předchozí">&lt;&lt;</a>
+	<a href="{{- next_comic.url | default: last_comic.url -}}" class="nav-button next-comic" title="Další" aria-label="Další">&gt;&gt;</a>
+	<a href="{{- last_comic.url -}}" class="nav-button last-comic" title="Poslední" aria-label="Poslední">&gt;|</a>
+</div>
+
