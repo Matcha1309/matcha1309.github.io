@@ -19,7 +19,7 @@ install:
 	bundle install
 
 update:
-	bundle update
+	bundle update --all
 	bundle update --bundler
 	bundle install
 
