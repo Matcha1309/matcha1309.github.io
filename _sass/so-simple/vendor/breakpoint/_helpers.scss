@@ -9,7 +9,7 @@
 
   // Will convert relative EMs into root EMs.
   @if breakpoint-get('base font size') and meta.type-of(breakpoint-get('base font size')) == 'number' and $value-unit == 'em' {
-    $base-unit: unit(breakpoint-get('base font size'));
+    $base-unit: math.unit(breakpoint-get('base font size'));
 
     @if $base-unit == 'px' or $base-unit == '%' or $base-unit == 'em' or $base-unit == 'pt' {
       @return base-conversion($value) / base-conversion(breakpoint-get('base font size')) * 1em;
@@ -25,7 +25,7 @@
 }
 
 @function base-conversion($value) {
-  $unit: unit($value);
+  $unit: math.unit($value);
 
   @if $unit == 'px' {
     @return calc($value / 16px * 1em);
