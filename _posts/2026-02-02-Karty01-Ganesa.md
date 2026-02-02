@@ -6,7 +6,7 @@ title: "Adventní kalendář - Ganéša"
 <!--begin_excerpt-->
 Dnes otevíráme první okýnko v kalendáři. A nenajdeme v něm nikoho jiného než Ganéšu. 
 <!--end_excerpt-->
-Ganéšu určitě znají i ti, kteří si to neuvědomují, je totiž poměrně populárním obecným symbolem pro všechny, kteří chtějí něco roztomilého pro štěstí. Stálí čtenáři už mohli Ganéšu potkat dokonce dvakrát i v příspěvku o tom, jak jsem se připravovala na zkoušku z [Úvodu do indických tradic](https://matcha1309.github.io/Indie/). 
+Ganéšu určitě znají i ti, kteří si to neuvědomují, je totiž poměrně populárním obecným symbolem pro všechny, kteří chtějí něco roztomilého pro štěstí. Stálí čtenáři už mohli Ganéšu potkat dokonce dvakrát i v příspěvku o tom, jak jsem se připravovala na [zkoušku z Úvodu do indických tradic](https://matcha1309.github.io/Indie/). 
 
 Podle toho, co jsme si říkali v zimním semestru ve škole, je Ganéša bůh moudrosti i hojnosti, je to kulaťoučký tlusťoučký človíček se sloní hlavou se vztyčením chobotem a jedním klem. Ganéša jako vlastně tak trochu slon má za svého váhana (společníka, mazlíčka, ale hlavně dopravní prostředek) malou myšičku, na které jezdí od místa k místu. Okolo tlustého bříška má ovázaný šál, na sloní hlavě korunu. V každé ze čtyř rukou má něco - měl by jednu ruku držet ve specifickém gestu, na dlani by měl mít symbol aum (ॐ). V další ruce drží sekerku na sekání problémů (jak sympatické, že řeší věci efektivně!), ve třetí drží lotos (univerzální pozitivní symbol), případně kus provázku nebo bič. A konečně ve čtvrté má mističku ořechových kuliček jménem laddu. 
 
