@@ -1,3 +1,5 @@
+@use "sass:list";
+@use "sass:string";
 //////////////////////////////
 // Has Setting
 //////////////////////////////
@@ -28,7 +30,7 @@
 // Set Settings
 //////////////////////////////
 @function breakpoint-set($setting, $value) {
-  @if (str-index($setting, '-') or str-index($setting, '_')) and str-index($setting, ' ') == null {
+  @if (string.index($setting, '-') or string.index($setting, '_')) and string.index($setting, ' ') == null {
     @warn "Words in Breakpoint settings should be separated by spaces, not dashes or underscores. Please replace dashes and underscores between words with spaces. Settings will not work as expected until changed.";
   }
   $breakpoint: map.merge($breakpoint, ($setting: $value)) !global;
@@ -54,12 +56,12 @@
 // Remove Setting
 //////////////////////////////
 @function breakpoint-reset($settings...) {
-  @if length($settings) == 1 {
-    $settings: nth($settings, 1);
+  @if list.length($settings) == 1 {
+    $settings: list.nth($settings, 1);
   }
 
   @each $setting in $settings {
-    $breakpoint: map-remove($breakpoint, $setting) !global;
+    $breakpoint: map.remove($breakpoint, $setting) !global;
   }
   @return true;
 }
