@@ -1,7 +1,9 @@
 //////////////////////////////
 // Import Parser Pieces
 //////////////////////////////
-@use 'sass:list';
+@use "sass:list";
+@use "sass:map";
+@use "sass:meta";
 
 @import "parsers/query";
 @import "parsers/single";
@@ -9,7 +11,7 @@
 @import "parsers/triple";
 @import "parsers/resolution";
 
-$Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
+$Memo-Exists: meta.function-exists(memo-get) and meta.function-exists(memo-set);
 
 //////////////////////////////
 // Breakpoint Function
@@ -43,7 +45,7 @@ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
 
 
     // Test to see if it's a comma-separated list
-    $or-list: if(list.separator($query) == 'comma', true, false);
+    $or-list: if(sass(list.separator($query) == "comma"): true; else: false);
 
 
     @if ($or-list == false and breakpoint-get('legacy syntax') == false) {
@@ -71,7 +73,7 @@ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
       @else {
         $query-string: '';
         @for $i from 1 through $length {
-          $query-string: $query-string + if($i == 1, '', ', ') + breakpoint-parse(nth($query, $i));
+          $query-string: $query-string + if(sass($i == 1): ""; else: ", ") + breakpoint-parse(nth($query, $i));
         }
       }
     }
@@ -81,15 +83,15 @@ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
         'context holder': $private-breakpoint-context-holder,
         'query count': $private-breakpoint-query-count
     );
-    @if list.length($contexts) > 0 and nth($contexts, 1) != false {
+    @if list.length($contexts) > 0 and list.nth($contexts, 1) != false {
       @if $query-fallback != false {
         $context-setter: private-breakpoint-set-context('no-query', $query-fallback);
       }
       $context-map: ();
       @each $context in $contexts {
-        $context-map: map-merge($context-map, ($context: breakpoint-get-context($context)));
+        $context-map: map.merge($context-map, ($context: breakpoint-get-context($context)));
       }
-      $return: map-merge($return, (context: $context-map));
+      $return: map.merge($return, (context: $context-map));
     }
 
     // Reset Global Private Breakpoint Context
@@ -199,8 +201,8 @@ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
   // Loop through each feature that's been detected so far and append 'false' to the the value list to increment their counters
   @each $f, $v in $private-breakpoint-context-holder {
     $v-holder: $v;
-    $length: length($v-holder);
-    @if length($v-holder) < $private-breakpoint-query-count {
+    $length: list.length($v-holder);
+    @if list.length($v-holder) < $private-breakpoint-query-count {
       @for $i from $length to $private-breakpoint-query-count {
         @if $f == 'media' {
           $v-holder: append($v-holder, breakpoint-get('default media'));
@@ -210,7 +212,7 @@ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
         }
       }
     }
-    $private-breakpoint-context-holder: map-merge($private-breakpoint-context-holder, ($f: $v-holder)) !global;
+    $private-breakpoint-context-holder: map.merge($private-breakpoint-context-holder, ($f: $v-holder)) !global;
   }
 
   @return $query-print;
