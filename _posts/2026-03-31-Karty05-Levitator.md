@@ -23,4 +23,3 @@ Když se to rozkřiklo, začala se zajímat inkvizice - co kdyby se jednalo o po
 Na kartičce najdeme Josefa mezi ostatními létajícími předměty vyznačeného svatozáří, jak na šňůrce visí u kostelní věže. 
 
 Omlouvám se za drobné zpoždění, za dva týdny už bychom měli pokračovat podle plánu úplně jinou mytologií - podíváme se do starého Řecka. 
-A
