@@ -19,6 +19,6 @@ Mínojská civilizace fungovala na Krétě během třetího a až do půlky druh
 {% endstrip %}
 
 Na tohle téma mám ještě drobné doporučení pro milovníky moderních divadelních zpracování: 
-Minulý týden jsem byla ve Státní opeře na divadelním představení podle Ovidiových [Proměn](https://www.narodni-divadlo.cz/cs/predstaveni/promeny-A60-dJRXTCW7XRdnEFcvKQ). A ty zrovna příběhem s názvem [Théseus a Ariadna](https://media.narodni-divadlo.cz/11302/1770292502-promeny-oblekana-zkouska_foto-pavel-hejny-11.jpg?auto=format,compress&fit=fillmax&w=1920&h=1200) téměř začínaly. A příští týden mírně vybočím z harmonogramu a trochu se o tomhle představení rozepíšu. 
+Minulý týden jsem byla ve Státní opeře na divadelním představení podle Ovidiových [Proměn](https://www.narodni-divadlo.cz/cs/predstaveni/promeny-A60-dJRXTCW7XRdnEFcvKQ). A to zrovna příběhem s názvem [Théseus a Ariadna](https://media.narodni-divadlo.cz/11302/1770292502-promeny-oblekana-zkouska_foto-pavel-hejny-11.jpg?auto=format,compress&fit=fillmax&w=1920&h=1200) téměř začínalo. Takže příští týden mírně vybočím z harmonogramu a trochu se o tomhle představení rozepíšu. 
 
 Brzy na viděnou. 
