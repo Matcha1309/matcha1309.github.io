@@ -1,7 +1,12 @@
+@use "sass:list";
+@use "sass:map";
+@use "sass:math";
+@use "sass:meta";
+@use "sass:string";
+
 //////////////////////////////
 // Default Variables
 //////////////////////////////
-@use "sass:map";
 
 $Breakpoint-Settings: (
   'default media': all,
@@ -23,17 +28,914 @@ $Breakpoint-Settings: (
 $breakpoint: () !default;
 
 //////////////////////////////
-// Imports
+// Settings
 //////////////////////////////
-@import "settings";
-@import "context";
-@import "helpers";
-@import "parsers";
-@import "no-query";
 
-@import "respond-to";
+@function breakpoint-has($setting) {
+  @if map.has-key($breakpoint, $setting) {
+    @return true;
+  }
+  @else {
+    @return false;
+  }
+}
 
-@import "legacy-settings";
+@function breakpoint-get($setting) {
+  @if breakpoint-has($setting) {
+    @return map.get($breakpoint, $setting);
+  }
+  @else {
+    @return map.get($Breakpoint-Settings, $setting);
+  }
+}
+
+@function breakpoint-set($setting, $value) {
+  @if (string.index($setting, '-') or string.index($setting, '_')) and string.index($setting, ' ') == null {
+    @warn "Words in Breakpoint settings should be separated by spaces, not dashes or underscores. Please replace dashes and underscores between words with spaces. Settings will not work as expected until changed.";
+  }
+  $breakpoint: map.merge($breakpoint, ($setting: $value)) !global;
+  @return true;
+}
+
+@mixin breakpoint-change($setting, $value) {
+  $breakpoint-change: breakpoint-set($setting, $value);
+}
+
+@mixin breakpoint-set($setting, $value) {
+  @include breakpoint-change($setting, $value);
+}
+
+@mixin bkpt-change($setting, $value) {
+  @include breakpoint-change($setting, $value);
+}
+@mixin bkpt-set($setting, $value) {
+  @include breakpoint-change($setting, $value);
+}
+
+@function breakpoint-reset($settings...) {
+  @if list.length($settings) == 1 {
+    $settings: list.nth($settings, 1);
+  }
+
+  @each $setting in $settings {
+    $breakpoint: map.remove($breakpoint, $setting) !global;
+  }
+  @return true;
+}
+
+@mixin breakpoint-reset($settings...) {
+  $breakpoint-reset: breakpoint-reset($settings);
+}
+
+@mixin bkpt-reset($settings...) {
+  $breakpoint-reset: breakpoint-reset($settings);
+}
+
+//////////////////////////////
+// Context
+//////////////////////////////
+
+$private-breakpoint-context-holder: ();
+$private-breakpoint-query-count: 0 !default;
+
+@function breakpoint-has-context() {
+  @if list.length($private-breakpoint-query-count) {
+    @return true;
+  }
+  @else {
+    @return false;
+  }
+}
+
+@function breakpoint-get-context($feature) {
+  @if map.has-key($private-breakpoint-context-holder, $feature) {
+    $get: map.get($private-breakpoint-context-holder, $feature);
+    @if $feature == 'no-query' {
+      @if meta.type-of($get) == 'list' and list.length($get) > 1 and list.nth($get, 1) == false {
+        $get: list.nth($get, list.length($get));
+      }
+    }
+    @return $get;
+  }
+  @else {
+    @if breakpoint-has-context() and $feature == 'media' {
+      @return breakpoint-get('default media');
+    }
+    @else {
+      @return false;
+    }
+  }
+}
+
+@function private-breakpoint-set-context($feature, $value) {
+  @if $value == 'monochrome' {
+    $feature: 'monochrome';
+  }
+
+  $current: map.get($private-breakpoint-context-holder, $feature);
+  @if $current and list.length($current) == $private-breakpoint-query-count {
+    @warn "You have already queried against `#{$feature}`. Unexpected things may happen if you query against the same feature more than once in the same `and` query. Breakpoint is overwriting the current context with `#{$value}`";
+  }
+
+  @if not map.has-key($private-breakpoint-context-holder, $feature) {
+    $v-holder: ();
+    @for $i from 1 to $private-breakpoint-query-count {
+      @if $feature == 'media' {
+        $v-holder: list.append($v-holder, breakpoint-get('default media'));
+      }
+      @else {
+        $v-holder: list.append($v-holder, false);
+      }
+    }
+    $v-holder: list.append($v-holder, $value);
+    $private-breakpoint-context-holder: map.merge($private-breakpoint-context-holder, ($feature: $v-holder)) !global;
+  }
+  @else {
+    $v-holder: map.get($private-breakpoint-context-holder, $feature);
+    $length: list.length($v-holder);
+    @for $i from $length to $private-breakpoint-query-count - 1 {
+      @if $feature == 'media' {
+        $v-holder: list.append($v-holder, breakpoint-get('default media'));
+      }
+      @else {
+        $v-holder: list.append($v-holder, false);
+      }
+    }
+    $v-holder: list.append($v-holder, $value);
+    $private-breakpoint-context-holder: map.merge($private-breakpoint-context-holder, ($feature: $v-holder)) !global;
+  }
+
+  @return true;
+}
+
+@mixin private-breakpoint-reset-contexts {
+  $private-breakpoint-context-holder: () !global;
+  $private-breakpoint-query-count: 0 !global;
+}
+
+//////////////////////////////
+// Helpers
+//////////////////////////////
+
+@function breakpoint-to-base-em($value) {
+  $value-unit: math.unit($value);
+
+  @if breakpoint-get('base font size') and meta.type-of(breakpoint-get('base font size')) == 'number' and $value-unit == 'em' {
+    $base-unit: math.unit(breakpoint-get('base font size'));
+
+    @if $base-unit == 'px' or $base-unit == '%' or $base-unit == 'em' or $base-unit == 'pt' {
+      @return calc(base-conversion($value) / base-conversion(breakpoint-get('base font size')) * 1em);
+    }
+    @else {
+      @warn '#{breakpoint-get("base font size")} is not set in valid units for font size!';
+      @return false;
+    }
+  }
+  @else {
+    @return base-conversion($value);
+  }
+}
+
+@function base-conversion($value) {
+  $unit: math.unit($value);
+
+  @if $unit == 'px' {
+    @return calc($value / 16px * 1em);
+  }
+  @else if $unit == '%' {
+    @return calc($value / 100% * 1em);
+  }
+  @else if $unit == 'em' {
+    @return $value;
+  }
+  @else if $unit == 'pt' {
+    @return calc($value / 12pt * 1em);
+  }
+  @else {
+    @return $value;
+  }
+}
+
+$breakpoint-min-max-features: 'color',
+                              'color-index',
+                              'aspect-ratio',
+                              'device-aspect-ratio',
+                              'device-height',
+                              'device-width',
+                              'height',
+                              'monochrome',
+                              'resolution',
+                              'width';
+
+@function breakpoint-min-max($feature) {
+  @each $item in $breakpoint-min-max-features {
+    @if $feature == $item {
+      @return true;
+    }
+  }
+  @return false;
+}
+
+$breakpoint-string-features:  'orientation',
+                              'scan',
+                              'color',
+                              'aspect-ratio',
+                              'device-aspect-ratio',
+                              'pointer',
+                              'luminosity';
+
+@function breakpoint-string-value($feature) {
+  @each $item in $breakpoint-string-features {
+    @if breakpoint-min-max($item) {
+      @if $feature == 'min-#{$item}' or $feature == 'max-#{$item}' {
+        @return true;
+      }
+    }
+    @else if $feature == $item {
+      @return true;
+    }
+  }
+  @return false;
+}
+
+$breakpoint-media-types:  'all',
+                          'braille',
+                          'embossed',
+                          'handheld',
+                          'print',
+                          'projection',
+                          'screen',
+                          'speech',
+                          'tty',
+                          'tv';
+
+@function breakpoint-is-media($feature) {
+  @each $media in $breakpoint-media-types {
+    @if ($feature == $media) or ($feature == 'not #{$media}') or ($feature == 'only #{$media}') {
+      @return true;
+    }
+  }
+  @return false;
+}
+
+$breakpoint-single-string-features: 'color',
+                                    'color-index',
+                                    'grid',
+                                    'monochrome';
+
+@function breakpoint-single-string($feature) {
+  @each $item in $breakpoint-single-string-features {
+    @if $feature == $item {
+      @return true;
+    }
+  }
+  @return false;
+}
+
+@function breakpoint-is-resolution($feature) {
+  $resolutions: 'device-pixel-ratio', 'dpr';
+
+  @if breakpoint-get('transform resolutions') {
+    $resolutions: list.append($resolutions, 'resolution');
+  }
+
+  @each $reso in $resolutions {
+    @if list.index($feature, $reso) or list.index($feature, 'min-#{$reso}') or list.index($feature, 'max-#{$reso}') {
+      @return true;
+    }
+  }
+
+  @return false;
+}
+
+//////////////////////////////
+// No-query helper
+//////////////////////////////
+
+@function breakpoint-no-query($query) {
+  @if meta.type-of($query) == 'list' {
+    $keyword: list.nth($query, 1);
+
+    @if meta.type-of($keyword) == 'string' and ($keyword == 'no-query' or $keyword == 'no query' or $keyword == 'fallback') {
+      @return list.nth($query, 2);
+    }
+    @else {
+      @return false;
+    }
+  }
+  @else {
+    @return false;
+  }
+}
+
+//////////////////////////////
+// Parsers — single
+//////////////////////////////
+
+@function breakpoint-parse-default($feature) {
+  $default: breakpoint-get('default feature');
+
+  $context-setter: private-breakpoint-set-context($default, $feature);
+
+  @if (breakpoint-get('to ems') == true) and (meta.type-of($feature) == 'number') {
+    @return '#{$default}: #{breakpoint-to-base-em($feature)}';
+  }
+  @else {
+    @return '#{$default}: #{$feature}';
+  }
+}
+
+@function breakpoint-parse-single($feature, $empty-media, $first) {
+  $parsed: '';
+  $leader: '';
+  @if not ($empty-media) or not ($first) {
+    $leader: 'and ';
+  }
+
+  @if (breakpoint-single-string($feature)) {
+    $parsed: $feature;
+    $context-setter: private-breakpoint-set-context($feature, $feature);
+  }
+  @else {
+    $parsed: breakpoint-parse-default($feature);
+  }
+
+  @return $leader + '(' + $parsed + ')';
+}
+
+//////////////////////////////
+// Parsers — double
+//////////////////////////////
+
+@function breakpoint-parse-default-pair($first, $second) {
+  $default: breakpoint-get('default pair');
+  $min: '';
+  $max: '';
+
+  $min: math.min($first, $second);
+  $max: math.max($first, $second);
+
+  $context-setter: private-breakpoint-set-context(min-#{$default}, $min);
+  $context-setter: private-breakpoint-set-context(max-#{$default}, $max);
+
+  @if (breakpoint-get('to ems') == true) {
+    $min: breakpoint-to-base-em($min);
+    $max: breakpoint-to-base-em($max);
+  }
+
+  @return '(min-#{$default}: #{$min}) and (max-#{$default}: #{$max})';
+}
+
+@function breakpoint-parse-double-string($first, $second) {
+  $feature: '';
+  $value: '';
+
+  @if (breakpoint-string-value($first) == true) {
+    $feature: $first;
+    $value: $second;
+  }
+  @else if (breakpoint-string-value($second) == true) {
+    $feature: $second;
+    $value: $first;
+  }
+  @else {
+    @warn "Neither #{$first} nor #{$second} is a valid media query name.";
+  }
+
+  $context-setter: private-breakpoint-set-context($feature, $value);
+
+  @return '(#{$feature}: #{$value})';
+}
+
+@function breakpoint-parse-double-default($first, $second) {
+  $feature: '';
+  $value: '';
+
+  @if meta.type-of($first) == 'string' {
+    $feature: $first;
+    $value: $second;
+  }
+  @else {
+    $feature: $second;
+    $value: $first;
+  }
+
+  $context-setter: private-breakpoint-set-context($feature, $value);
+
+  @if (breakpoint-get('to ems') == true) {
+    $value: breakpoint-to-base-em($value);
+  }
+
+  @return '(#{$feature}: #{$value})';
+}
+
+@function breakpoint-parse-double($feature, $empty-media, $first) {
+  $parsed: '';
+  $leader: '';
+  @if not ($empty-media) or not ($first) {
+    $leader: 'and ';
+  }
+
+  $first: list.nth($feature, 1);
+  $second: list.nth($feature, 2);
+
+  @if meta.type-of($first) == 'number' and meta.type-of($second) == 'number' {
+    $parsed: breakpoint-parse-default-pair($first, $second);
+  }
+  @else if meta.type-of($first) == 'string' and meta.type-of($second) == 'string' {
+    $parsed: breakpoint-parse-double-string($first, $second);
+  }
+  @else {
+    $parsed: breakpoint-parse-double-default($first, $second);
+  }
+
+  @return $leader + $parsed;
+}
+
+//////////////////////////////
+// Parsers — triple
+//////////////////////////////
+
+@function breakpoint-parse-triple-default($feature, $first, $second) {
+  $min: math.min($first, $second);
+  $max: math.max($first, $second);
+
+  $context-setter: private-breakpoint-set-context(min-#{$feature}, $min);
+  $context-setter: private-breakpoint-set-context(max-#{$feature}, $max);
+
+  @if (breakpoint-get('to ems') == true) {
+    $min: breakpoint-to-base-em($min);
+    $max: breakpoint-to-base-em($max);
+  }
+
+  @return '(min-#{$feature}: #{$min}) and (max-#{$feature}: #{$max})';
+}
+
+@function breakpoint-parse-triple($feature, $empty-media, $first) {
+  $parsed: '';
+  $leader: '';
+
+  @if not ($empty-media) or not ($first) {
+    $leader: 'and ';
+  }
+
+  $string: null;
+  $numbers: null;
+  @each $val in $feature {
+    @if meta.type-of($val) == string {
+      $string: $val;
+    }
+    @else {
+      @if meta.type-of($numbers) == 'null' {
+        $numbers: $val;
+      }
+      @else {
+        $numbers: list.append($numbers, $val);
+      }
+    }
+  }
+
+  $parsed: breakpoint-parse-triple-default($string, list.nth($numbers, 1), list.nth($numbers, 2));
+
+  @return $leader + $parsed;
+}
+
+//////////////////////////////
+// Parsers — query
+//////////////////////////////
+
+@function breakpoint-parse-query($query) {
+  $feature-holder: ();
+  $query-holder: ();
+  $length: list.length($query);
+
+  @if $length == 2 {
+    @if (meta.type-of(list.nth($query, 1)) == 'string' and meta.type-of(list.nth($query, 2)) == 'number') or (meta.type-of(list.nth($query, 1)) == 'number' and meta.type-of(list.nth($query, 2)) == 'string') {
+
+      $number: '';
+      $value: '';
+
+      @if meta.type-of(list.nth($query, 1)) == 'string' {
+        $number: list.nth($query, 2);
+        $value: list.nth($query, 1);
+      }
+      @else {
+        $number: list.nth($query, 1);
+        $value: list.nth($query, 2);
+      }
+
+      @if breakpoint-single-string($value) {
+        @if math.is-unitless($number) {
+          $feature-holder: list.append($value, $number, space);
+          $query-holder: list.append($query-holder, $feature-holder, comma);
+          @return $query-holder;
+        }
+      }
+      @if breakpoint-is-media($value) {
+        $query-holder: list.append($query-holder, list.nth($query, 1));
+        $query-holder: list.append($query-holder, list.nth($query, 2));
+        @return $query-holder;
+      }
+      @else {
+        $feature-holder: list.append($value, $number, space);
+        $query-holder: list.append($query-holder, $feature-holder, comma);
+        @return $query-holder;
+      }
+
+    }
+    @else if (meta.type-of(list.nth($query, 1)) == 'number' and meta.type-of(list.nth($query, 2)) == 'number') {
+      $feature-holder: list.append(list.nth($query, 1), list.nth($query, 2), space);
+      $query-holder: list.append($query-holder, $feature-holder, comma);
+      @return $query-holder;
+    }
+    @else if (meta.type-of(list.nth($query, 1)) == 'string' and meta.type-of(list.nth($query, 2)) == 'string') {
+      @if not breakpoint-single-string(list.nth($query, 1)) and not breakpoint-single-string(list.nth($query, 2)) {
+        $feature-holder: list.append(list.nth($query, 1), list.nth($query, 2), space);
+        $query-holder: list.append($query-holder, $feature-holder, comma);
+        @return $query-holder;
+      }
+    }
+  }
+  @else if $length == 3 {
+    @if meta.type-of(list.nth($query, 1)) != 'list' and meta.type-of(list.nth($query, 2)) != 'list' and meta.type-of(list.nth($query, 3)) != 'list' {
+      @if (not breakpoint-single-string(list.nth($query, 1)) and not breakpoint-single-string(list.nth($query, 2)) and not breakpoint-single-string(list.nth($query, 3))) and  ((not breakpoint-is-media(list.nth($query, 1)) and not breakpoint-is-media(list.nth($query, 2)) and not breakpoint-is-media(list.nth($query, 3)))) {
+        $feature-holder: list.append(list.nth($query, 1), list.nth($query, 2), space);
+        $feature-holder: list.append($feature-holder, list.nth($query, 3), space);
+        $query-holder: list.append($query-holder, $feature-holder, comma);
+        @return $query-holder;
+      }
+      @else if breakpoint-is-media(list.nth($query, 1)) {
+        $query-holder: list.append($query-holder, list.nth($query, 1));
+        $feature-holder: list.append(list.nth($query, 2), list.nth($query, 3), space);
+        $query-holder: list.append($query-holder, $feature-holder);
+        @return $query-holder;
+      }
+    }
+  }
+
+  @return $query;
+}
+
+//////////////////////////////
+// Parsers — resolution
+//////////////////////////////
+
+@function breakpoint-make-resolutions($resolution) {
+  $length: list.length($resolution);
+
+  $output: ();
+
+  @if $length == 2 {
+    $feature: '';
+    $value: '';
+
+    @if meta.type-of(list.nth($resolution, 1)) == 'number' {
+      $value: list.nth($resolution, 1);
+    }
+    @else {
+      $value: list.nth($resolution, 2);
+    }
+
+    @if list.index($resolution, 'min-resolution') {
+      $feature: 'min-';
+    }
+    @else if list.index($resolution, 'max-resolution') {
+      $feature: 'max-';
+    }
+
+    $standard: '(#{$feature}resolution: #{$value})';
+
+    @if math.unit($value) != 'dppx' {
+      $base: 96dpi;
+      @if math.unit($value) == 'dpcm' {
+        $base: 243.84dpcm;
+      }
+      $webkit: '(-webkit-#{$feature}device-pixel-ratio: #{calc($value / $base)})';
+      $moz: '(#{$feature}-moz-device-pixel-ratio: #{calc($value / $base)})';
+      $output: list.append($output, $standard, space);
+      $output: list.append($output, $webkit, space);
+      $output: list.append($output, $moz, space);
+    }
+    @else {
+      $webkit: '(-webkit-#{$feature}device-pixel-ratio: #{calc($value / 1dppx)})';
+      $moz: '(#{$feature}-moz-device-pixel-ratio: #{calc($value / 1dppx)})';
+      $fallback: '(#{$feature}resolution: #{calc($value / 1dppx * 96dpi)})';
+      $output: list.append($output, $standard, space);
+      $output: list.append($output, $webkit, space);
+      $output: list.append($output, $moz, space);
+      $output: list.append($output, $fallback, space);
+    }
+
+  }
+
+  @return $output;
+}
+
+@function breakpoint-build-resolution($query-print, $query-resolution, $empty-media, $first) {
+  $leader: '';
+  @if not ($empty-media) or not ($first) {
+    $leader: 'and ';
+  }
+
+  @if breakpoint-get('transform resolutions') and $query-resolution {
+    $resolutions: breakpoint-make-resolutions($query-resolution);
+    $length: list.length($resolutions);
+    $query-holder: '';
+
+    @for $i from 1 through $length {
+      $query: '#{$query-print} #{$leader}#{list.nth($resolutions, $i)}';
+      @if $i == 1 {
+        $query-holder: $query;
+      }
+      @else {
+        $query-holder: '#{$query-holder}, #{$query}';
+      }
+    }
+
+    @return $query-holder;
+  }
+  @else {
+    @return $query-print;
+  }
+}
+
+$Memo-Exists: meta.function-exists(memo-get) and meta.function-exists(memo-set);
+
+@function breakpoint($query, $contexts...) {
+  $run: true;
+  $return: ();
+
+  @if $Memo-Exists {
+    $return: memo-get(breakpoint, breakpoint $query $contexts);
+
+    @if $return != null {
+      $run: false;
+    }
+  }
+
+  @if not $Memo-Exists or $run {
+    $query-string: '';
+    $query-fallback: false;
+    $return: ();
+
+    $holder-context: $private-breakpoint-context-holder;
+    $holder-query-count: $private-breakpoint-query-count;
+
+    $private-breakpoint-context-holder: () !global;
+    $private-breakpoint-query-count: 0 !global;
+
+    $or-list: if(sass(list.separator($query) == "comma"): true; else: false);
+
+    @if ($or-list == false and breakpoint-get('legacy syntax') == false) {
+      $query-string: breakpoint-parse($query);
+    }
+    @else {
+      $length: list.length($query);
+
+      $last: list.nth($query, $length);
+      $query-fallback: breakpoint-no-query($last);
+
+      @if ($query-fallback != false) {
+        $length: $length - 1;
+      }
+
+      @if (breakpoint-get('legacy syntax') == true) {
+        $mq: ();
+
+        @for $i from 1 through $length {
+          $mq: list.append($mq, list.nth($query, $i), comma);
+        }
+
+        $query-string: breakpoint-parse($mq);
+      }
+      @else {
+        $query-string: '';
+        @for $i from 1 through $length {
+          $query-string: $query-string + if(sass($i == 1): ""; else: ", ") + breakpoint-parse(list.nth($query, $i));
+        }
+      }
+    }
+
+    $return: ('query': $query-string,
+        'fallback': $query-fallback,
+        'context holder': $private-breakpoint-context-holder,
+        'query count': $private-breakpoint-query-count
+    );
+    @if list.length($contexts) > 0 and list.nth($contexts, 1) != false {
+      @if $query-fallback != false {
+        $context-setter: private-breakpoint-set-context('no-query', $query-fallback);
+      }
+      $context-map: ();
+      @each $context in $contexts {
+        $context-map: map.merge($context-map, ($context: breakpoint-get-context($context)));
+      }
+      $return: map.merge($return, (context: $context-map));
+    }
+
+    $private-breakpoint-context-holder: () !global;
+    $private-breakpoint-query-count: 0 !global;
+
+    @if $Memo-Exists {
+      $holder: memo-set(breakpoint, breakpoint $query $contexts, $return);
+    }
+  }
+
+  @return $return;
+}
+
+@function breakpoint-parse($query) {
+  $private-breakpoint-query-count: $private-breakpoint-query-count + 1 !global;
+
+  $query-print: '';
+
+  $force-all: ((breakpoint-get('force all media type') == true) and (breakpoint-get('default media') == 'all'));
+  $empty-media: true;
+  @if ($force-all == true) or (breakpoint-get('default media') != 'all') {
+    $query-print: breakpoint-get('default media');
+    $empty-media: false;
+  }
+
+
+  $query-resolution: false;
+
+  $query-holder: breakpoint-parse-query($query);
+
+
+
+  $first: true;
+
+  @each $feature in $query-holder {
+    $length: list.length($feature);
+
+    @if ($length == 1) {
+      $feature: list.nth($feature, 1);
+
+      @if (breakpoint-is-media($feature)) {
+        @if ($force-all == true) or ($feature != 'all') {
+          $query-print: $feature;
+          $empty-media: false;
+
+          $context-setter: private-breakpoint-set-context(media, $query-print);
+        }
+      }
+      @else {
+        $parsed: breakpoint-parse-single($feature, $empty-media, $first);
+        $query-print: '#{$query-print} #{$parsed}';
+        $first: false;
+      }
+    }
+    @else if ($length == 2) {
+      @if (breakpoint-is-resolution($feature) != false) {
+        $query-resolution: $feature;
+      }
+      @else {
+        $parsed: null;
+        $alpha: list.nth($feature, 1);
+        $beta: list.nth($feature, 2);
+        @if breakpoint-single-string($alpha) or breakpoint-single-string($beta) {
+          $parsed: breakpoint-parse-single($alpha, $empty-media, $first);
+          $query-print: '#{$query-print} #{$parsed}';
+          $first: false;
+          $parsed: breakpoint-parse-single($beta, $empty-media, $first);
+          $query-print: '#{$query-print} #{$parsed}';
+        }
+        @else {
+          $parsed: breakpoint-parse-double($feature, $empty-media, $first);
+          $query-print: '#{$query-print} #{$parsed}';
+          $first: false;
+        }
+      }
+    }
+    @else if ($length == 3) {
+      $parsed: breakpoint-parse-triple($feature, $empty-media, $first);
+      $query-print: '#{$query-print} #{$parsed}';
+      $first: false;
+    }
+
+  }
+
+  @if ($query-resolution != false) {
+    $query-print: breakpoint-build-resolution($query-print, $query-resolution, $empty-media, $first);
+  }
+
+  @each $f, $v in $private-breakpoint-context-holder {
+    $v-holder: $v;
+    $length: list.length($v-holder);
+    @if list.length($v-holder) < $private-breakpoint-query-count {
+      @for $i from $length to $private-breakpoint-query-count {
+        @if $f == 'media' {
+          $v-holder: list.append($v-holder, breakpoint-get('default media'));
+        }
+        @else {
+          $v-holder: list.append($v-holder, false);
+        }
+      }
+    }
+    $private-breakpoint-context-holder: map.merge($private-breakpoint-context-holder, ($f: $v-holder)) !global;
+  }
+
+  @return $query-print;
+}
+
+//////////////////////////////
+// Respond-to API
+//////////////////////////////
+
+$breakpoints: () !default;
+$BREAKPOINTS: () !default;
+
+@mixin respond-to($context, $no-query: false) {
+  @if list.length($breakpoints) > 0 and list.length($BREAKPOINTS) == 0 {
+    @warn "In order to avoid variable namespace collisions, we have updated the way to add breakpoints for respond-to. Please change all instances of `$breakpoints: add-breakpoint()` to `@include add-breakpoint()`. The `add-breakpoint()` function will be deprecated in a future release.";
+    $BREAKPOINTS: $breakpoints !global;
+    $breakpoints: () !global;
+  }
+
+  @if meta.type-of($BREAKPOINTS) != 'map' {
+    @warn "Your breakpoints aren't a map! `respond-to` expects a map. Please check the value of $BREAKPOINTS variable.";
+    @content;
+  }
+  @else if map.has-key($BREAKPOINTS, $context) {
+    @include breakpoint(map.get($BREAKPOINTS, $context), $no-query) {
+      @content;
+    }
+  }
+  @else if not map.has-key($BREAKPOINTS, $context) {
+    @warn "`#{$context}` isn't a defined breakpoint! Please add it using `$breakpoints: add-breakpoint(`#{$context}`, $value);`";
+    @content;
+  }
+  @else {
+    @warn "You haven't created any breakpoints yet! Make some already! `@include add-breakpoint($name, $bkpt)`";
+    @content;
+  }
+}
+
+@function add-breakpoint($name, $bkpt, $overwrite: false) {
+  $output: ($name: $bkpt);
+
+  @if list.length($breakpoints) == 0 {
+    @return $output;
+  }
+  @else {
+    @if map.has-key($breakpoints, $name) and $overwrite != true {
+      @warn "You already have a breakpoint named `#{$name}`, please choose another breakpoint name, or pass in `$overwrite: true` to overwrite the previous breakpoint.";
+      @return $breakpoints;
+    }
+    @else if not map.has-key($breakpoints, $name) or $overwrite == true {
+      @return map.merge($breakpoints, $output);
+    }
+  }
+}
+
+@mixin add-breakpoint($name, $bkpt, $overwrite: false) {
+  $output: ($name: $bkpt);
+
+  @if list.length($BREAKPOINTS) == 0 {
+    $BREAKPOINTS: $output !global;
+  }
+  @else {
+    @if map.has-key($BREAKPOINTS, $name) and $overwrite != true {
+      @warn "You already have a breakpoint named `#{$name}`, please choose another breakpoint name, or pass in `$overwrite: true` to overwrite the previous breakpoint.";
+      $BREAKPOINTS: $BREAKPOINTS !global;
+    }
+    @else if not map.has-key($BREAKPOINTS, $name) or $overwrite == true {
+      $BREAKPOINTS: map.merge($BREAKPOINTS, $output) !global;
+    }
+  }
+}
+
+@function get-breakpoint($name: false) {
+  @if $name == false {
+    @return $BREAKPOINTS;
+  }
+  @else {
+    @return map.get($BREAKPOINTS, $name);
+  }
+}
+
+//////////////////////////////
+// Legacy settings
+//////////////////////////////
+
+@mixin legacy-settings-warning {
+  $legacyVars: (
+    'default-media': 'default media',
+    'default-feature': 'default feature',
+    'force-media-all': 'force all media type',
+    'to-ems': 'to ems',
+    'resolutions': 'transform resolutions',
+    'no-queries': 'no queries',
+    'no-query-fallbacks': 'no query fallbacks',
+    'base-font-size': 'base font size',
+    'legacy-syntax': 'legacy syntax'
+  );
+
+  @each $legacy, $new in $legacyVars {
+    @if meta.global-variable-exists('breakpoint-' + $legacy) {
+      @warn "In order to avoid variable namspace collisions, we have updated the way to change settings for Breakpoint. Please change all instances of `$breakpoint-#{$legacy}: {{setting}}` to `@include breakpoint-set('#{$new}', {{setting}})`. Variable settings, as well as this warning will be deprecated in a future release.";
+    }
+  };
+}
 
 //////////////////////////////
 // Breakpoint Mixin
@@ -42,7 +944,6 @@ $breakpoint: () !default;
 @mixin breakpoint($query, $no-query: false) {
   @include legacy-settings-warning;
 
-  // Reset contexts
   @include private-breakpoint-reset-contexts();
 
   $breakpoint: breakpoint($query, false);
@@ -53,7 +954,6 @@ $breakpoint: () !default;
   $private-breakpoint-context-holder: map.get($breakpoint, 'context holder') !global;
   $private-breakpoint-query-count: map.get($breakpoint, 'query count') !global;
 
-  // Allow for an as-needed override or usage of no query fallback.
   @if $no-query != false {
     $query-fallback: $no-query;
   }
@@ -62,7 +962,6 @@ $breakpoint: () !default;
     $context-setter: private-breakpoint-set-context('no-query', $query-fallback);
   }
 
-  // Print Out Query String
   @if not breakpoint-get('no queries') {
     @media #{$query-string} {
       @content;
@@ -71,7 +970,7 @@ $breakpoint: () !default;
 
   @if breakpoint-get('no query fallbacks') != false or breakpoint-get('no queries') == true {
 
-    $type: type-of(breakpoint-get('no query fallbacks'));
+    $type: meta.type-of(breakpoint-get('no query fallbacks'));
     $print: false;
 
     @if ($type == 'bool') {
@@ -90,9 +989,8 @@ $breakpoint: () !default;
       }
     }
 
-    // Write Fallback
     @if ($query-fallback != false) and ($print == true) {
-      $type-fallback: type-of($query-fallback);
+      $type-fallback: meta.type-of($query-fallback);
 
       @if ($type-fallback != 'bool') {
         #{$query-fallback} & {

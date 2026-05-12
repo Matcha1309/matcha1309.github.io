@@ -5,27 +5,23 @@
  * https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
 */
 
-@import "so-simple/functions";
-@import "so-simple/variables";
-@import "so-simple/mixins";
-@import "so-simple/vendor/breakpoint/breakpoint";
-@include breakpoint-set("to ems", true);
-@import "so-simple/vendor/lity/lity";
+@use "so-simple/vendor/breakpoint/breakpoint" with ($breakpoint: ('to ems': true));
+@use "so-simple/vendor/lity/lity";
 
 /* Core Styles */
-@import "so-simple/reset";
-@import "so-simple/base";
-@import "so-simple/tables";
+@use "so-simple/reset";
+@use "so-simple/base";
+@use "so-simple/tables";
 
 /* Components */
-@import "so-simple/global";
-@import "so-simple/page";
-@import "so-simple/author";
-@import "so-simple/entries";
-@import "so-simple/buttons";
-@import "so-simple/icons";
-@import "so-simple/notices";
-@import "so-simple/syntax-highlighting";
+@use "so-simple/global";
+@use "so-simple/page";
+@use "so-simple/author";
+@use "so-simple/entries";
+@use "so-simple/buttons";
+@use "so-simple/icons";
+@use "so-simple/notices";
+@use "so-simple/syntax-highlighting";
 
-/* Utility Clases */
-@import "so-simple/utilities";
+/* Utility Classes */
+@use "so-simple/utilities";

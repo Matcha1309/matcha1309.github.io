@@ -1,5 +1,5 @@
-@import "mixins/clearfix";
-@import "mixins/float";
-@import "mixins/image";
-@import "mixins/lists";
-@import "mixins/text-truncate";
+@forward "mixins/clearfix";
+@forward "mixins/float";
+@forward "mixins/image";
+@forward "mixins/lists";
+@forward "mixins/text-truncate";

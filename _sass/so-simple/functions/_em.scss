@@ -2,6 +2,6 @@
    EM conversion
    ========================================================================== */
 
-   @function em($target, $context: $doc-font-size) {
-    @return ($target / $context) * 1em;
-  }
+@function em($target, $context: 16px) {
+  @return calc($target / $context) * 1em;
+}
