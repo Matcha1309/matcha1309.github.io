@@ -22,7 +22,7 @@ jobs:
     steps:
       # Put repository source onto the runner so we can build it
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Install the proper version of Ruby and run bundle install
       - name: Setup Ruby
@@ -32,7 +32,7 @@ jobs:
           ruby-version: '3.4'
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
           node-version: 24
 
@@ -54,7 +54,7 @@ jobs:
 
       - name: Upload artifact to GitHub Pages
         id: artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           name: github-pages # Ensure artifact is named
           path: _site/
