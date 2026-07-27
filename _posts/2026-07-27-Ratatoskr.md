@@ -8,7 +8,7 @@ Ve spoustě mytologií různých kultur najdeme mnoho významných stromů. Ať 
 <!--end_excerpt--> 
 
 {% strip %}
-![Ratatoskr original](/assets/img/kalendar25/10_wiki.jpg) Ratatoskr v islandském rukopisu ze 17. stol.([zdroj](https://en.wikipedia.org/wiki/Ratatoskr#/media/File:AM_738_4to_Ratatoskr.png))
+[![Ratatoskr original](/assets/img/kalendar25/10_wiki.jpg)](https://en.wikipedia.org/wiki/Ratatoskr#/media/File:AM_738_4to_Ratatoskr.png) Ratatoskr v islandském rukopisu ze 17. stol.
 {% endstrip %}
 
 Ratatoskr, někdy také psaný jako Ratatosk, je zubatý veverčák, který běhá nahoru a dolů po Yggdrasilu a mimo jiné má v popisu práce vyřizovat zprávy mezi drakem v kořenech a ptákem v koruně stromu. Ti dva se ale nemají rádi a Ratatoskr to ví, protože většinou vyřizuje spíš nadávky. Sám si taky nedá ujít jedinou příležitost, aby pošťouchl ty dva proti sobě, často sám vyvolává hádky. 
